@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Skins Symbol Overrides'
+  short_description: 'Build mod-owned DST appearance variants safely'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/world-ui-assets/dst-skins-symbol-overrides/GUIDE.md."

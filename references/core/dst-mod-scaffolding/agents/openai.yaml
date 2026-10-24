@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Mod Scaffolding'
+  short_description: 'Create valid DST mod entrypoints and metadata'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/core/dst-mod-scaffolding/GUIDE.md."

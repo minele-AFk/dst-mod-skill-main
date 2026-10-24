@@ -1,0 +1,19 @@
+#if defined(GL_ES)
+precision mediump float;
+#endif
+
+uniform sampler2D SAMPLER[1];
+uniform vec4 SAMPLER_PARAMS;
+
+varying vec2 PS_TEXCOORD0;
+
+void main()
+{
+    vec2 offset = vec2(0.0, SAMPLER_PARAMS.w);
+    vec4 colour = texture2D(SAMPLER[0], PS_TEXCOORD0) * 0.227027;
+    colour += texture2D(SAMPLER[0], PS_TEXCOORD0 + offset * 1.384615) * 0.316216;
+    colour += texture2D(SAMPLER[0], PS_TEXCOORD0 - offset * 1.384615) * 0.316216;
+    colour += texture2D(SAMPLER[0], PS_TEXCOORD0 + offset * 3.230769) * 0.070270;
+    colour += texture2D(SAMPLER[0], PS_TEXCOORD0 - offset * 3.230769) * 0.070270;
+    gl_FragColor = colour;
+}

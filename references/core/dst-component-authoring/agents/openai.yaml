@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 组件编写'
+  short_description: 'Component 设计、Replica 与生命周期'
+  default_prompt: "Use $dst-mod-skill-main to design or fix a DST Component. Topic guide: references/core/dst-component-authoring/GUIDE.md."

@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Prefab Authoring'
+  short_description: 'Build network-safe DST prefab entities'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/core/dst-prefab-authoring/GUIDE.md."

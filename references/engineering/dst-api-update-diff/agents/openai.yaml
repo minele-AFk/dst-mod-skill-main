@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST API差异分析'
+  short_description: '游戏更新后的模组兼容性检查'
+  default_prompt: "Use $dst-mod-skill-main to compare DST source across game updates and assess mod compatibility. Topic guide: references/engineering/dst-api-update-diff/GUIDE.md."

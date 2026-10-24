@@ -1,0 +1,6 @@
+interface:
+  display_name: "饥荒 Mod 开发工具包"
+  short_description: "DST Mod 知识不足时按需查证 API、机制、组件、代码名和案例"
+  default_prompt: "使用 $dst-mod-skill-main 查询不清楚的 DST Mod API、机制、组件、物品代码名或实现依据，并核对当前源码；简单明确的编辑不必加载整套流程。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST HUD/屏幕/输入'
+  short_description: '玩家HUD定制、屏幕栈与控件与事件驱动UI'
+  default_prompt: "Use $dst-mod-skill-main to add or customize HUD, screens, focus, or event-driven widgets. Topic guide: references/world-ui-assets/dst-hud-screens-input/GUIDE.md."

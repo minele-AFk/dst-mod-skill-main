@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 钩子兼容'
+  short_description: 'PostInit 钩子与安全补丁策略'
+  default_prompt: "Use $dst-mod-skill-main to apply safe post-init patches. Topic guide: references/core/dst-hooking-compatibility/GUIDE.md."

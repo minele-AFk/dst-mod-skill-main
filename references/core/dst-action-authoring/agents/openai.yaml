@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 动作编写'
+  short_description: 'Action、BufferedAction 与预测'
+  default_prompt: "Use $dst-mod-skill-main to create and integrate custom actions. Topic guide: references/core/dst-action-authoring/GUIDE.md."

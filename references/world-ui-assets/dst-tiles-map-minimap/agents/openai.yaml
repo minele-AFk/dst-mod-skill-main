@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Tiles Map Minimap'
+  short_description: 'Build DST tiles turf map and minimap content'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/world-ui-assets/dst-tiles-map-minimap/GUIDE.md."

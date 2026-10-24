@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 世界生成'
+  short_description: '地皮/房间/任务/布局/世界hook与scenario编写'
+  default_prompt: "Use $dst-mod-skill-main to add tiles, rooms, tasks, layouts, or worldgen hooks. Topic guide: references/gameplay/dst-worldgen-authoring/GUIDE.md."

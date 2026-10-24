@@ -1,0 +1,4 @@
+interface:
+  display_name: "DST 贴图风格制作"
+  short_description: "分析并制作符合 DST 手绘视觉语言的透明 PNG 贴图资源"
+  default_prompt: "使用 $dst-mod-skill-main 分析同类原版参考，并制作或审计符合 DST 视觉语言的透明贴图。 Topic guide: references/world-ui-assets/dst-texture-style/GUIDE.md."

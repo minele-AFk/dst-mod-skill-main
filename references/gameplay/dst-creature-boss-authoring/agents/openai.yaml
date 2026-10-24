@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 生物Boss'
+  short_description: '生物与Boss跨系统集成'
+  default_prompt: "Use $dst-mod-skill-main to build a creature or boss. Topic guide: references/gameplay/dst-creature-boss-authoring/GUIDE.md."

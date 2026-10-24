@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST World Systems Events Weather'
+  short_description: 'Build persistent DST world systems and events'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/gameplay/dst-world-systems-events-weather/GUIDE.md."

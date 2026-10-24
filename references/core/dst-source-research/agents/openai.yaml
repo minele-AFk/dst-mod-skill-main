@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 源码研究'
+  short_description: '搜索源码、追踪调用链和原版范例'
+  default_prompt: "Use $dst-mod-skill-main to research DST Lua source for this task. Topic guide: references/core/dst-source-research/GUIDE.md."

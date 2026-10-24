@@ -1,0 +1,15 @@
+#if defined(GL_ES)
+precision highp float;
+#endif
+
+uniform sampler2D SAMPLER[1];
+uniform float MY_INTENSITY;
+
+varying vec2 PS_TEXCOORD0;
+
+void main()
+{
+    vec3 colour = texture2D(SAMPLER[0], PS_TEXCOORD0).rgb;
+    float luma = dot(colour, vec3(0.299, 0.587, 0.114));
+    gl_FragColor = vec4(mix(colour, vec3(luma), MY_INTENSITY), 1.0);
+}

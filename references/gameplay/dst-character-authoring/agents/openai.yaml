@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 角色编排'
+  short_description: '创建和维护可玩的饥荒角色 Prefab、属性、语音和技能树。'
+  default_prompt: "Use $dst-mod-skill-main to create and maintain playable Don't Starve Together characters. Topic guide: references/gameplay/dst-character-authoring/GUIDE.md."

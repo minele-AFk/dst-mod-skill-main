@@ -1,0 +1,47 @@
+// World AnimState bloom-pass template. This output contributes to bloom only.
+#if defined(GL_ES)
+precision mediump float;
+#endif
+
+#if defined(TRIPLE_ATLAS)
+uniform sampler2D SAMPLER[6];
+#else
+uniform sampler2D SAMPLER[2];
+#endif
+
+uniform vec4 TIMEPARAMS;
+varying vec3 PS_TEXCOORD;
+
+void main()
+{
+    vec4 colour;
+
+#if defined(TRIPLE_ATLAS)
+    if (PS_TEXCOORD.z < 0.5)
+    {
+        colour = texture2D(SAMPLER[0], PS_TEXCOORD.xy);
+    }
+    else if (PS_TEXCOORD.z < 1.5)
+    {
+        colour = texture2D(SAMPLER[1], PS_TEXCOORD.xy);
+    }
+    else
+    {
+        colour = texture2D(SAMPLER[5], PS_TEXCOORD.xy);
+    }
+#else
+    if (PS_TEXCOORD.z < 0.5)
+    {
+        colour = texture2D(SAMPLER[0], PS_TEXCOORD.xy);
+    }
+    else
+    {
+        colour = texture2D(SAMPLER[1], PS_TEXCOORD.xy);
+    }
+#endif
+
+    float pulse = 0.75 + 0.25 * sin(TIMEPARAMS.x * 4.0);
+    colour.rgb *= pulse;
+    colour.rgb = min(colour.rgb, vec3(colour.a));
+    gl_FragColor = colour;
+}

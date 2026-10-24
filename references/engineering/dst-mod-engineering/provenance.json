@@ -1,0 +1,724 @@
+{
+  "repository": "https://github.com/Zechariah0121/dst-mod-engineering",
+  "commit": "ef682cb95f4b4e2171f3c2c634c88ddecefe75de",
+  "checkpoint": "0f56a6f34603490c66be79c920adc1fe36e5ddf8",
+  "imported": [
+    {
+      "source": "references/animation-recipes.md",
+      "target": "references/engineering/dst-mod-engineering/animation-recipes.md",
+      "upstream_sha256": "39a5122b5a3225b7e9fa0078eeb79bcfd83df01637b399f259a088a8ae3515ae",
+      "integrated_sha256": "32bc1a989e015f58818de2f32fdc134cf849945e0fd60d64a205f79705d91c76",
+      "adapted": true
+    },
+    {
+      "source": "references/assets-animation.md",
+      "target": "references/engineering/dst-mod-engineering/assets-animation.md",
+      "upstream_sha256": "a11bae29e483c56d6d692d7754a81e701a1bf159a5ee5d9da2b2b281908ee2bb",
+      "integrated_sha256": "274bc1341959bf513757c4f41bc192fa392588de362305573f92d03eee934234",
+      "adapted": true
+    },
+    {
+      "source": "references/audio-particles.md",
+      "target": "references/engineering/dst-mod-engineering/audio-particles.md",
+      "upstream_sha256": "a048ef2322416221a87717ede339f3e3fcf19f2e368c4f7a648c53e6d972a2b0",
+      "integrated_sha256": "d3ac18e580df02efd18e28cca675fa144befa9548f4706dd71037096637d4f31",
+      "adapted": true
+    },
+    {
+      "source": "references/character-and-equipment-art.md",
+      "target": "references/engineering/dst-mod-engineering/character-and-equipment-art.md",
+      "upstream_sha256": "b2c59789d2c0623ec4a9c3b5a84365f5f3f016f70f53cf8b146c47d8d3967b5c",
+      "integrated_sha256": "7004e06588d927a0fba628454aa832bf1b118646582ee1a9c53b94c48b6126a3",
+      "adapted": true
+    },
+    {
+      "source": "references/characters-brains-stategraphs.md",
+      "target": "references/engineering/dst-mod-engineering/characters-brains-stategraphs.md",
+      "upstream_sha256": "18ba0f1cbd645885ea1aae4bf9db4ab779e94123e507ee4ec884909b6639775f",
+      "integrated_sha256": "faef889ca16fdd77470eb604b5631e6ad0e34d6f7c80223537ce084c55f84172",
+      "adapted": true
+    },
+    {
+      "source": "references/combat-buffs-containers.md",
+      "target": "references/engineering/dst-mod-engineering/combat-buffs-containers.md",
+      "upstream_sha256": "e56f20c3525c0ec546b8835bfe5ab281297498286057e5110265664188dacf44",
+      "integrated_sha256": "3ac00706acfe99feeca52ecae9fb9777b6efeeef23e146107f23745efcfee3ac",
+      "adapted": true
+    },
+    {
+      "source": "references/cooker-dishes.md",
+      "target": "references/engineering/dst-mod-engineering/cooker-dishes.md",
+      "upstream_sha256": "9e176f8455d6f0f0ba9ff440493ca2ae86f01a004e5e9dcde7b995edd0113cf5",
+      "integrated_sha256": "11605c7065a44d924a8d8075e6beaf3eef3f7e9c3102d47cb69ea27bbfb6231f",
+      "adapted": true
+    },
+    {
+      "source": "references/core-lua-hooks.md",
+      "target": "references/engineering/dst-mod-engineering/core-lua-hooks.md",
+      "upstream_sha256": "0ec9f36c59eb5d690ac8e24aa7bac83bbd4e653584276b1e4b6e2feaea588092",
+      "integrated_sha256": "eba410d8296de94c33509de9c3e9a89877cc3f72d1f772cfbf1f402a876d7a63",
+      "adapted": true
+    },
+    {
+      "source": "references/dst-mod-tool.md",
+      "target": "references/engineering/dst-mod-engineering/dst-mod-tool.md",
+      "upstream_sha256": "b863777f956fc40cfea9085056eae554bf8a00ebced63e89c6bbcbbc07c484b2",
+      "integrated_sha256": "8b341922022fdb614ac01c84dd66ff2a27704a9ccb33f58c39f106b4d57f896e",
+      "adapted": true
+    },
+    {
+      "source": "references/entities-components.md",
+      "target": "references/engineering/dst-mod-engineering/entities-components.md",
+      "upstream_sha256": "fc02c099b51c5be036980feb1b57938f200c4b64c4198520ead800c8eef9918a",
+      "integrated_sha256": "746e42ff5d08cb6a686623dc1b69db2b1ad9047f90eb20037c88783d6f1fa28b",
+      "adapted": true
+    },
+    {
+      "source": "references/environment-tools.md",
+      "target": "references/engineering/dst-mod-engineering/environment-tools.md",
+      "upstream_sha256": "535339a84106dd52f25121d27e943aa370b3a0bdd2d33ac52f3c5bce63d39733",
+      "integrated_sha256": "99e5bcca1bca97fc1a3a2d81b64af953e5071a8dfeb706c907aff1b27f9ee309",
+      "adapted": true
+    },
+    {
+      "source": "references/items-food-plants.md",
+      "target": "references/engineering/dst-mod-engineering/items-food-plants.md",
+      "upstream_sha256": "52dc5f24f5c5b94d03089837d69094d1e246564e0541053cda32af92262415be",
+      "integrated_sha256": "81e03ec447a92341b9c836d83a188047b97790f70ee7ad4597297e7d37cc0aa7",
+      "adapted": true
+    },
+    {
+      "source": "references/kb-retrieval.md",
+      "target": "references/engineering/dst-mod-engineering/kb-retrieval.md",
+      "upstream_sha256": "77fdd063fd56b05df8b86ace8dc54de06294f9977031a3bf9d3b03e1eb7227bd",
+      "integrated_sha256": "664c5d5a6e9cf53c1ca51ca3ce61611e35df8b6b04d74529f9e4c9d6e02f00ee",
+      "adapted": true
+    },
+    {
+      "source": "references/lifecycle-save.md",
+      "target": "references/engineering/dst-mod-engineering/lifecycle-save.md",
+      "upstream_sha256": "94c7ddc7e2a294fc2650e42797fbee1a2051a3a3f170f11c218cd4402fd137fb",
+      "integrated_sha256": "0f651c56a386a65b2e498cafed606370196f25817cfbcf610d51d413d4b7d15c",
+      "adapted": true
+    },
+    {
+      "source": "references/networking-rpc.md",
+      "target": "references/engineering/dst-mod-engineering/networking-rpc.md",
+      "upstream_sha256": "0cea2f07b471708f091215b419b73dfe21859c7f8579fb909967fe26853f2848",
+      "integrated_sha256": "94f4f76648b7b2fe84dac27c759a2e8ec0952826104bd108a7ab28523f142c39",
+      "adapted": true
+    },
+    {
+      "source": "references/sources-and-corrections.md",
+      "target": "references/engineering/dst-mod-engineering/sources-and-corrections.md",
+      "upstream_sha256": "fc3a50877b9b98aa6748372c39e0e9af6001d17db14a1a8e3e6fa69af0cc998b",
+      "integrated_sha256": "9210d90475e10b11f041007f9a84c2dc132e2b8d6f939fffd477f8c263474e3a",
+      "adapted": true
+    },
+    {
+      "source": "references/spells-and-custom-stats.md",
+      "target": "references/engineering/dst-mod-engineering/spells-and-custom-stats.md",
+      "upstream_sha256": "2c7e56534b8a8893baac5fd13b32534c80044cf9c9b45b1215be1f93071a147e",
+      "integrated_sha256": "0163238911fb7ac3d0a1d984a203b7690b77778d1fe855ac4d05b6974f95de65",
+      "adapted": true
+    },
+    {
+      "source": "references/testing-release.md",
+      "target": "references/engineering/dst-mod-engineering/testing-release.md",
+      "upstream_sha256": "c679890aeeba7bde47c963d0ddbdc1adb10e6fc3ad245436eca6fb815b119b95",
+      "integrated_sha256": "9ae877edee7809eab52749f4d841e74a2d28e14482cea86785d2110a0f62f022",
+      "adapted": true
+    },
+    {
+      "source": "references/tool-bootstrap.md",
+      "target": "references/engineering/dst-mod-engineering/tool-bootstrap.md",
+      "upstream_sha256": "f4b48414ae2e2c5fd6c2e5824976e98aaf0ec81c6edb00978ead752afa57e7dd",
+      "integrated_sha256": "553d0158a3f7d9e204f570cad02a1e4b8bfefacd1257ce3d37713d88dc9d3da2",
+      "adapted": true
+    },
+    {
+      "source": "references/ui-actions-controls.md",
+      "target": "references/engineering/dst-mod-engineering/ui-actions-controls.md",
+      "upstream_sha256": "83a2b5d424ce557339b5a48329f2792a8ed9e53f60d436f65d353f0e8def86c2",
+      "integrated_sha256": "367e5a8afca91e10afe6e7ff5fc2c036822b14e887e75ae66c8605efbbc73815",
+      "adapted": true
+    },
+    {
+      "source": "references/worldgen-spatial.md",
+      "target": "references/engineering/dst-mod-engineering/worldgen-spatial.md",
+      "upstream_sha256": "a007921c4c23575c1866053961522b665fd8d0d648e22503c5bf6d39662dc622",
+      "integrated_sha256": "15e8d2f478f6bde01f7b4fb3f43a1ca0e29d7419f93190f9663e48abe5887f51",
+      "adapted": true
+    },
+    {
+      "source": "scripts/check_api.py",
+      "target": "references/tools/engineering/scripts/check_api.py",
+      "upstream_sha256": "5e1e51286aa1cda4b992394a5d7df89b05808398cbbba219a15f6f3fbc60b4c5",
+      "integrated_sha256": "5e1e51286aa1cda4b992394a5d7df89b05808398cbbba219a15f6f3fbc60b4c5",
+      "adapted": false
+    },
+    {
+      "source": "scripts/dst_modtest.py",
+      "target": "references/tools/engineering/scripts/dst_modtest.py",
+      "upstream_sha256": "196c0fbced6de385e51fad0ec3a34461c88b4b4aeee23539bd37490bda1b17f5",
+      "integrated_sha256": "196c0fbced6de385e51fad0ec3a34461c88b4b4aeee23539bd37490bda1b17f5",
+      "adapted": false
+    },
+    {
+      "source": "scripts/dst_zip_tool.py",
+      "target": "references/tools/engineering/scripts/dst_zip_tool.py",
+      "upstream_sha256": "3a8a2f26b47b08b25907ba5eb71d428b6bc0e9fa896e294e68d99ee6ae00b068",
+      "integrated_sha256": "3a8a2f26b47b08b25907ba5eb71d428b6bc0e9fa896e294e68d99ee6ae00b068",
+      "adapted": false
+    },
+    {
+      "source": "requirements.txt",
+      "target": "references/tools/engineering/requirements.txt",
+      "upstream_sha256": "95cd8e888f3bc38de1eba3f9eef53b09b642e53cfc279bf595290b85d154c46d",
+      "integrated_sha256": "95cd8e888f3bc38de1eba3f9eef53b09b642e53cfc279bf595290b85d154c46d",
+      "adapted": false
+    },
+    {
+      "source": "tests/test_tools.py",
+      "target": "references/tools/engineering/tests/test_tools.py",
+      "upstream_sha256": "1659e288bcb28f7caf1adbc4314de95082735da6064723ecd08af2e3dc526e32",
+      "integrated_sha256": "1659e288bcb28f7caf1adbc4314de95082735da6064723ecd08af2e3dc526e32",
+      "adapted": false
+    },
+    {
+      "source": "tests/fixtures/behavior.lua",
+      "target": "references/tools/engineering/tests/fixtures/behavior.lua",
+      "upstream_sha256": "8959efc2789d9641ea9734c6bc6e4c774c0c0b5cfb399f29b647a7da085b2fc9",
+      "integrated_sha256": "8959efc2789d9641ea9734c6bc6e4c774c0c0b5cfb399f29b647a7da085b2fc9",
+      "adapted": false
+    },
+    {
+      "source": "tests/fixtures/mod/modinfo.lua",
+      "target": "references/tools/engineering/tests/fixtures/mod/modinfo.lua",
+      "upstream_sha256": "42edd40248ce3c4ca26c8bd685e456f4e750bead88080bb17840139480ebcfd0",
+      "integrated_sha256": "42edd40248ce3c4ca26c8bd685e456f4e750bead88080bb17840139480ebcfd0",
+      "adapted": false
+    },
+    {
+      "source": "tests/fixtures/vanilla_stub/scripts/components/health.lua",
+      "target": "references/tools/engineering/tests/fixtures/vanilla_stub/scripts/components/health.lua",
+      "upstream_sha256": "9aaae403c2d53528f769ae778d09aafbfc411444ec1058c51a625540c9d369a2",
+      "integrated_sha256": "9aaae403c2d53528f769ae778d09aafbfc411444ec1058c51a625540c9d369a2",
+      "adapted": false
+    },
+    {
+      "source": "tests/fixtures/vanilla_stub/scripts/components/health_replica.lua",
+      "target": "references/tools/engineering/tests/fixtures/vanilla_stub/scripts/components/health_replica.lua",
+      "upstream_sha256": "8249307a292d4f6f98c41478bc3dd7b91a242503991d22bc04cde4f2a72cbdb7",
+      "integrated_sha256": "8249307a292d4f6f98c41478bc3dd7b91a242503991d22bc04cde4f2a72cbdb7",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/CASE-002-AGENDA.md",
+      "target": "references/knowledge/dst-engineering-kb/CASE-002-AGENDA.md",
+      "upstream_sha256": "49762634f4c93d3f6c972a0509fd424b3dbfb2f7f543917ae0c6573053fa136c",
+      "integrated_sha256": "49762634f4c93d3f6c972a0509fd424b3dbfb2f7f543917ae0c6573053fa136c",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/CHANGELOG.md",
+      "target": "references/knowledge/dst-engineering-kb/CHANGELOG.md",
+      "upstream_sha256": "8d2d528d83b98b5e3bd7d8fa8ece4848815d1d7e0bb7574f327819f252f8da60",
+      "integrated_sha256": "8d2d528d83b98b5e3bd7d8fa8ece4848815d1d7e0bb7574f327819f252f8da60",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/GOVERNANCE.md",
+      "target": "references/knowledge/dst-engineering-kb/GOVERNANCE.md",
+      "upstream_sha256": "9cb65dcbc62120aba12201e5e7560e34ab7a0c176842e91a768d8c8b25e7cd3b",
+      "integrated_sha256": "9cb65dcbc62120aba12201e5e7560e34ab7a0c176842e91a768d8c8b25e7cd3b",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/INDEX.md",
+      "target": "references/knowledge/dst-engineering-kb/INDEX.md",
+      "upstream_sha256": "18a5a6ae1383f61740595f05e310d4214fa140bd5ddfccfc99b9e57f9256359e",
+      "integrated_sha256": "18a5a6ae1383f61740595f05e310d4214fa140bd5ddfccfc99b9e57f9256359e",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/KB-v0.1.1-Migration-Report.md",
+      "target": "references/knowledge/dst-engineering-kb/KB-v0.1.1-Migration-Report.md",
+      "upstream_sha256": "7632c50f0cd6c1cbbcdc0fd33622846c50331656359cbab83336bd58ff1ca20b",
+      "integrated_sha256": "7632c50f0cd6c1cbbcdc0fd33622846c50331656359cbab83336bd58ff1ca20b",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/KB-v0.1.1-Migration-Report.txt",
+      "target": "references/knowledge/dst-engineering-kb/KB-v0.1.1-Migration-Report.txt",
+      "upstream_sha256": "7632c50f0cd6c1cbbcdc0fd33622846c50331656359cbab83336bd58ff1ca20b",
+      "integrated_sha256": "7632c50f0cd6c1cbbcdc0fd33622846c50331656359cbab83336bd58ff1ca20b",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/PACKAGE-MANIFEST.json",
+      "target": "references/knowledge/dst-engineering-kb/PACKAGE-MANIFEST.json",
+      "upstream_sha256": "6f470696b97186797b147e85505c7f97d9fdec0879200e1690bc28deb2b844b8",
+      "integrated_sha256": "6f470696b97186797b147e85505c7f97d9fdec0879200e1690bc28deb2b844b8",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/PUBLICATION-PROVENANCE.json",
+      "target": "references/knowledge/dst-engineering-kb/PUBLICATION-PROVENANCE.json",
+      "upstream_sha256": "862cb07bb966e2fe9d6ed01145c4b6eff1c3b6c5fc8b274c7dde8154e2bb6356",
+      "integrated_sha256": "862cb07bb966e2fe9d6ed01145c4b6eff1c3b6c5fc8b274c7dde8154e2bb6356",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/README.md",
+      "target": "references/knowledge/dst-engineering-kb/README.md",
+      "upstream_sha256": "dc00739d0ea7c31000193e679ca97b74dca2a8b8c145b80f4f69ce27c3657af5",
+      "integrated_sha256": "dc00739d0ea7c31000193e679ca97b74dca2a8b8c145b80f4f69ce27c3657af5",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/RELATIONS.md",
+      "target": "references/knowledge/dst-engineering-kb/RELATIONS.md",
+      "upstream_sha256": "d4ef858250bc343c8a609408e36b1c073b7ea98b000afb8fd856b943b13d773d",
+      "integrated_sha256": "d4ef858250bc343c8a609408e36b1c073b7ea98b000afb8fd856b943b13d773d",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/SOURCES.md",
+      "target": "references/knowledge/dst-engineering-kb/SOURCES.md",
+      "upstream_sha256": "917dce6b7e9a2ab53cc068b835ab7bfb9562987a17f0d152d748c25a87cc694f",
+      "integrated_sha256": "917dce6b7e9a2ab53cc068b835ab7bfb9562987a17f0d152d748c25a87cc694f",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/VALIDATION.md",
+      "target": "references/knowledge/dst-engineering-kb/VALIDATION.md",
+      "upstream_sha256": "37696f23404f9a9cbbaff2cf51be541d89aac8cf960f9bd63352b6f926638a05",
+      "integrated_sha256": "37696f23404f9a9cbbaff2cf51be541d89aac8cf960f9bd63352b6f926638a05",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/anti-patterns/case001.md",
+      "target": "references/knowledge/dst-engineering-kb/anti-patterns/case001.md",
+      "upstream_sha256": "3e5ac2692d06e5be7f9e96e6ff100d8e5ae18f4a0356107b1bb7615b36a355fd",
+      "integrated_sha256": "3e5ac2692d06e5be7f9e96e6ff100d8e5ae18f4a0356107b1bb7615b36a355fd",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/corrections/CASE-001.md",
+      "target": "references/knowledge/dst-engineering-kb/corrections/CASE-001.md",
+      "upstream_sha256": "c5565f2814c61bed428b4d184aa530f40b84f5f741a5dc51e7c9eeb4851fb1b2",
+      "integrated_sha256": "c5565f2814c61bed428b4d184aa530f40b84f5f741a5dc51e7c9eeb4851fb1b2",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/corrections/claims.md",
+      "target": "references/knowledge/dst-engineering-kb/corrections/claims.md",
+      "upstream_sha256": "0ece2f9d3d311c9c48bb2b89b45856e213290bfd2674f39f404acaefe3c26cff",
+      "integrated_sha256": "0ece2f9d3d311c9c48bb2b89b45856e213290bfd2674f39f404acaefe3c26cff",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/data/claims.json",
+      "target": "references/knowledge/dst-engineering-kb/data/claims.json",
+      "upstream_sha256": "68c6fcf1fc7bb6efe9e2885b34419389f991d8389ee2df8964a5a3e46f85f637",
+      "integrated_sha256": "68c6fcf1fc7bb6efe9e2885b34419389f991d8389ee2df8964a5a3e46f85f637",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/data/entries.json",
+      "target": "references/knowledge/dst-engineering-kb/data/entries.json",
+      "upstream_sha256": "d626b4460c5c0bf05190aabc0ac8f51d1e1732762a80b80da97223091d247ce6",
+      "integrated_sha256": "d626b4460c5c0bf05190aabc0ac8f51d1e1732762a80b80da97223091d247ce6",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/data/index.json",
+      "target": "references/knowledge/dst-engineering-kb/data/index.json",
+      "upstream_sha256": "00a6e47f4f4f44f6d8940f16ee4965053eac5e993465f59ed32fa247172dfaa6",
+      "integrated_sha256": "00a6e47f4f4f44f6d8940f16ee4965053eac5e993465f59ed32fa247172dfaa6",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/data/migration-audit.json",
+      "target": "references/knowledge/dst-engineering-kb/data/migration-audit.json",
+      "upstream_sha256": "ee2fba38ae9c9b00c9835acd997e08e36908e3b9482ed0ce95e9a97e07a328d2",
+      "integrated_sha256": "ee2fba38ae9c9b00c9835acd997e08e36908e3b9482ed0ce95e9a97e07a328d2",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/data/relations.json",
+      "target": "references/knowledge/dst-engineering-kb/data/relations.json",
+      "upstream_sha256": "4fdd1a36294e76e2d4fee433f5f8b7764c0287e956004df81f2f9f33c2cea953",
+      "integrated_sha256": "4fdd1a36294e76e2d4fee433f5f8b7764c0287e956004df81f2f9f33c2cea953",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/data/sources.json",
+      "target": "references/knowledge/dst-engineering-kb/data/sources.json",
+      "upstream_sha256": "b55edc457ba4723550487e52fbfe08db11eed4de01cf5879b337946c0c70a291",
+      "integrated_sha256": "b55edc457ba4723550487e52fbfe08db11eed4de01cf5879b337946c0c70a291",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/data/validation.json",
+      "target": "references/knowledge/dst-engineering-kb/data/validation.json",
+      "upstream_sha256": "e2b3a0d50f6c20c504388975e4bcb62b1387565df19dc3454c854e5a1ce36cd5",
+      "integrated_sha256": "e2b3a0d50f6c20c504388975e4bcb62b1387565df19dc3454c854e5a1ce36cd5",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/decisions/candidates.md",
+      "target": "references/knowledge/dst-engineering-kb/decisions/candidates.md",
+      "upstream_sha256": "951041b044c413e6f4e5dad3db48bcebd64d7a79353e85286f437581b63fa899",
+      "integrated_sha256": "951041b044c413e6f4e5dad3db48bcebd64d7a79353e85286f437581b63fa899",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/facts/klei-lua.md",
+      "target": "references/knowledge/dst-engineering-kb/facts/klei-lua.md",
+      "upstream_sha256": "6978552d93abacc049ecb90613abb0b636109e013127072b602c5577614fc58c",
+      "integrated_sha256": "6978552d93abacc049ecb90613abb0b636109e013127072b602c5577614fc58c",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/failures/case001.md",
+      "target": "references/knowledge/dst-engineering-kb/failures/case001.md",
+      "upstream_sha256": "403c48ad54108cdfc28876915574c52eab2da397d7cc5a37215ecb08df8a05f9",
+      "integrated_sha256": "403c48ad54108cdfc28876915574c52eab2da397d7cc5a37215ecb08df8a05f9",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/patterns/PATTERN-FRAMEWORK-001.md",
+      "target": "references/knowledge/dst-engineering-kb/patterns/PATTERN-FRAMEWORK-001.md",
+      "upstream_sha256": "56ba519b62f203014e88fd44b9c0c1fb914eec4ebc536b103aef60ec5fcb6003",
+      "integrated_sha256": "56ba519b62f203014e88fd44b9c0c1fb914eec4ebc536b103aef60ec5fcb6003",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/patterns/PATTERN-NET-001.md",
+      "target": "references/knowledge/dst-engineering-kb/patterns/PATTERN-NET-001.md",
+      "upstream_sha256": "c212615dbde122b9b142511342af721d13b76f211ac1b902825db9d8eb0d039d",
+      "integrated_sha256": "c212615dbde122b9b142511342af721d13b76f211ac1b902825db9d8eb0d039d",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/patterns/PATTERN-SHARD-001.md",
+      "target": "references/knowledge/dst-engineering-kb/patterns/PATTERN-SHARD-001.md",
+      "upstream_sha256": "0fea36d2e9be9cb424518463837886c8b5d0989fc018aaa2bc9daa540c10a5bb",
+      "integrated_sha256": "0fea36d2e9be9cb424518463837886c8b5d0989fc018aaa2bc9daa540c10a5bb",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/patterns/PATTERN-WORLD-001.md",
+      "target": "references/knowledge/dst-engineering-kb/patterns/PATTERN-WORLD-001.md",
+      "upstream_sha256": "8dab76430ef4c27cd8827ab5f7f996546299ce80317199675e029eb757669eba",
+      "integrated_sha256": "8dab76430ef4c27cd8827ab5f7f996546299ce80317199675e029eb757669eba",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/playbooks/ARP-DST-001.md",
+      "target": "references/knowledge/dst-engineering-kb/playbooks/ARP-DST-001.md",
+      "upstream_sha256": "7bfb7af711cbfd2c559dad8c32726d56a9ba78a238cb9cb3b48262253f36fe8d",
+      "integrated_sha256": "7bfb7af711cbfd2c559dad8c32726d56a9ba78a238cb9cb3b48262253f36fe8d",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/review-support/case-metadata.json",
+      "target": "references/knowledge/dst-engineering-kb/review-support/case-metadata.json",
+      "upstream_sha256": "ea076f6eeb5b2815e757b84284567f92840a590f08b927428ddfad14fecc0e35",
+      "integrated_sha256": "ea076f6eeb5b2815e757b84284567f92840a590f08b927428ddfad14fecc0e35",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/review-support/source-map.json",
+      "target": "references/knowledge/dst-engineering-kb/review-support/source-map.json",
+      "upstream_sha256": "b435151cd05f5af23aa45cb85dd11c55a41a06597ddab3965d19970e3312fa86",
+      "integrated_sha256": "b435151cd05f5af23aa45cb85dd11c55a41a06597ddab3965d19970e3312fa86",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/rules/framework.md",
+      "target": "references/knowledge/dst-engineering-kb/rules/framework.md",
+      "upstream_sha256": "ccfb08a5aadaec0ebe2be5fc3f875f02b36d6df3eaff16b286ce607afe10dbad",
+      "integrated_sha256": "ccfb08a5aadaec0ebe2be5fc3f875f02b36d6df3eaff16b286ce607afe10dbad",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/rules/hook.md",
+      "target": "references/knowledge/dst-engineering-kb/rules/hook.md",
+      "upstream_sha256": "2fb988c3a696334f0624b9407f973d8c88f8d45ed217079fd8cd3ed2fed18d63",
+      "integrated_sha256": "2fb988c3a696334f0624b9407f973d8c88f8d45ed217079fd8cd3ed2fed18d63",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/rules/life.md",
+      "target": "references/knowledge/dst-engineering-kb/rules/life.md",
+      "upstream_sha256": "67be60c5abfa5bcdfd786ae7ededdd7c35d47641196fc62098b1670bfb0daa72",
+      "integrated_sha256": "67be60c5abfa5bcdfd786ae7ededdd7c35d47641196fc62098b1670bfb0daa72",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/rules/net.md",
+      "target": "references/knowledge/dst-engineering-kb/rules/net.md",
+      "upstream_sha256": "fd00af18eeb5b7168d1cca1f49837bc84e5785dacdf1c583aa967ad90c5a2373",
+      "integrated_sha256": "fd00af18eeb5b7168d1cca1f49837bc84e5785dacdf1c583aa967ad90c5a2373",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/rules/persist.md",
+      "target": "references/knowledge/dst-engineering-kb/rules/persist.md",
+      "upstream_sha256": "a8fd1e9c345de3f0f8415dc324652a9aa0d8a142492bda5d75ff41c69d4d31d0",
+      "integrated_sha256": "a8fd1e9c345de3f0f8415dc324652a9aa0d8a142492bda5d75ff41c69d4d31d0",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/rules/resource.md",
+      "target": "references/knowledge/dst-engineering-kb/rules/resource.md",
+      "upstream_sha256": "64ffb598441758bc813674e0b3ef6990237515d2bf4b9d9a0504c205ccf92626",
+      "integrated_sha256": "64ffb598441758bc813674e0b3ef6990237515d2bf4b9d9a0504c205ccf92626",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/rules/shard.md",
+      "target": "references/knowledge/dst-engineering-kb/rules/shard.md",
+      "upstream_sha256": "0748623c3dcf6d8130cac13712391dbc00ae0cb4193309ee8d1ef2ebd93cadd6",
+      "integrated_sha256": "0748623c3dcf6d8130cac13712391dbc00ae0cb4193309ee8d1ef2ebd93cadd6",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/rules/state.md",
+      "target": "references/knowledge/dst-engineering-kb/rules/state.md",
+      "upstream_sha256": "6a71ba6ebcc915cd507f27f916ad804b215d88217c7d6940179ecef1f679f497",
+      "integrated_sha256": "6a71ba6ebcc915cd507f27f916ad804b215d88217c7d6940179ecef1f679f497",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/rules/world.md",
+      "target": "references/knowledge/dst-engineering-kb/rules/world.md",
+      "upstream_sha256": "9b7be0560946243d1d6f1c737f86b1b922decb62ced92da86094b640344acc21",
+      "integrated_sha256": "9b7be0560946243d1d6f1c737f86b1b922decb62ced92da86094b640344acc21",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/schemas/case-metadata.schema.json",
+      "target": "references/knowledge/dst-engineering-kb/schemas/case-metadata.schema.json",
+      "upstream_sha256": "7cecf7cbce9ac82c7aee4ff573e6a79931bd65b8e0c881743e13d6d99181a983",
+      "integrated_sha256": "7cecf7cbce9ac82c7aee4ff573e6a79931bd65b8e0c881743e13d6d99181a983",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/schemas/claims.schema.json",
+      "target": "references/knowledge/dst-engineering-kb/schemas/claims.schema.json",
+      "upstream_sha256": "5dfaa02531fcfe4f4fe0267d27ab0d20bdf5790168ceb78e16a955542bdec4b7",
+      "integrated_sha256": "5dfaa02531fcfe4f4fe0267d27ab0d20bdf5790168ceb78e16a955542bdec4b7",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/schemas/entries.schema.json",
+      "target": "references/knowledge/dst-engineering-kb/schemas/entries.schema.json",
+      "upstream_sha256": "98b1fcd17108773150d95d69768a891eaf442d228149f6b92f42fbc94e3d1fc2",
+      "integrated_sha256": "98b1fcd17108773150d95d69768a891eaf442d228149f6b92f42fbc94e3d1fc2",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/schemas/README.md",
+      "target": "references/knowledge/dst-engineering-kb/schemas/README.md",
+      "upstream_sha256": "b3dabec21065fa71dac18b4391932d6bfaed18e123e329442ed62012ba10f88a",
+      "integrated_sha256": "b3dabec21065fa71dac18b4391932d6bfaed18e123e329442ed62012ba10f88a",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/schemas/relations.schema.json",
+      "target": "references/knowledge/dst-engineering-kb/schemas/relations.schema.json",
+      "upstream_sha256": "ea788d9d02287220e8d0c17ff8f2011aaa1e4ac4db39c155eb66ec687713834b",
+      "integrated_sha256": "ea788d9d02287220e8d0c17ff8f2011aaa1e4ac4db39c155eb66ec687713834b",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/schemas/sources.schema.json",
+      "target": "references/knowledge/dst-engineering-kb/schemas/sources.schema.json",
+      "upstream_sha256": "a32ae1bd2d99fd23b75e424f8bdc8a7a8db2dad6fdc4e1030b0995314c253fb6",
+      "integrated_sha256": "a32ae1bd2d99fd23b75e424f8bdc8a7a8db2dad6fdc4e1030b0995314c253fb6",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/tests/candidates.md",
+      "target": "references/knowledge/dst-engineering-kb/tests/candidates.md",
+      "upstream_sha256": "844beb327318e40cf0f5ca62534d6e0dee886a84f31de10738c5306cecec9395",
+      "integrated_sha256": "844beb327318e40cf0f5ca62534d6e0dee886a84f31de10738c5306cecec9395",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/tools/render.py",
+      "target": "references/knowledge/dst-engineering-kb/tools/render.py",
+      "upstream_sha256": "af347b146a0cc746943027890cc8d577c1e3f572d75a73ac0387fc6f6432321d",
+      "integrated_sha256": "af347b146a0cc746943027890cc8d577c1e3f572d75a73ac0387fc6f6432321d",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/tools/validate.py",
+      "target": "references/knowledge/dst-engineering-kb/tools/validate.py",
+      "upstream_sha256": "97042a6982c9b1cb82d63ab410b01b4809b6e8e603b0509a13dbe28a48ba53b5",
+      "integrated_sha256": "97042a6982c9b1cb82d63ab410b01b4809b6e8e603b0509a13dbe28a48ba53b5",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/tools/validate_v011.py",
+      "target": "references/knowledge/dst-engineering-kb/tools/validate_v011.py",
+      "upstream_sha256": "bbe72ed6cd1dfda80be1f8e1b9cd32d0ac3dd7a79edc260c9994feceeabbe90c",
+      "integrated_sha256": "bbe72ed6cd1dfda80be1f8e1b9cd32d0ac3dd7a79edc260c9994feceeabbe90c",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/review-support/reports/SoraBusinessIntegration_20260928.txt",
+      "target": "references/knowledge/dst-engineering-kb/review-support/reports/SoraBusinessIntegration_20260928.txt",
+      "upstream_sha256": "e5df671faba4ec6255a37097d36fdc2810b9dcedde4fa62f41995f1330fae4ea",
+      "integrated_sha256": "e5df671faba4ec6255a37097d36fdc2810b9dcedde4fa62f41995f1330fae4ea",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/review-support/reports/sorachestmanager_DeepDive_20260928.txt",
+      "target": "references/knowledge/dst-engineering-kb/review-support/reports/sorachestmanager_DeepDive_20260928.txt",
+      "upstream_sha256": "d5971be5b08d291b84c22da4180f8db7affbd5a7196386ca016b58d174b741f4",
+      "integrated_sha256": "d5971be5b08d291b84c22da4180f8db7affbd5a7196386ca016b58d174b741f4",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/review-support/reports/SoraFramework_DeepDive_20260928.txt",
+      "target": "references/knowledge/dst-engineering-kb/review-support/reports/SoraFramework_DeepDive_20260928.txt",
+      "upstream_sha256": "b78b54ab166c64cb156ecb09e521407a741aa850d0de3b279dfb6c00536db0ed",
+      "integrated_sha256": "b78b54ab166c64cb156ecb09e521407a741aa850d0de3b279dfb6c00536db0ed",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/history/v0.1/data/entries.json",
+      "target": "references/knowledge/dst-engineering-kb/history/v0.1/data/entries.json",
+      "upstream_sha256": "36e2b8eeb324af6609bbdeac8a392cd4d64b02053f97b82d62fbcaa407fcb4e4",
+      "integrated_sha256": "36e2b8eeb324af6609bbdeac8a392cd4d64b02053f97b82d62fbcaa407fcb4e4",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/history/v0.1/data/sources.json",
+      "target": "references/knowledge/dst-engineering-kb/history/v0.1/data/sources.json",
+      "upstream_sha256": "522a4b977ac2591a171239a40e6aeb47cd9c6d2716278d6ad4d5ffbffb961e45",
+      "integrated_sha256": "522a4b977ac2591a171239a40e6aeb47cd9c6d2716278d6ad4d5ffbffb961e45",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/history/v0.1/data/validation.json",
+      "target": "references/knowledge/dst-engineering-kb/history/v0.1/data/validation.json",
+      "upstream_sha256": "52dfed4c5f4c4449b050fadba62f47a94b729bcb1447e795f0b49f7f3b681de7",
+      "integrated_sha256": "52dfed4c5f4c4449b050fadba62f47a94b729bcb1447e795f0b49f7f3b681de7",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/history/v0.1/schemas/entries.schema.json",
+      "target": "references/knowledge/dst-engineering-kb/history/v0.1/schemas/entries.schema.json",
+      "upstream_sha256": "7c63b2d7f13a1d0d72bc6ba2dfaa20e43ee8df43ee846837c5ce378884648245",
+      "integrated_sha256": "7c63b2d7f13a1d0d72bc6ba2dfaa20e43ee8df43ee846837c5ce378884648245",
+      "adapted": false
+    },
+    {
+      "source": "dst-engineering-kb/cases/CASE-001-sora/README.md",
+      "target": "references/knowledge/dst-engineering-kb/cases/CASE-001-sora/README.md",
+      "upstream_sha256": "baca0a62cbb7f0cce54eaed0cbbc7704c1437d8cc0463b0c3e77d31b02585f29",
+      "integrated_sha256": "baca0a62cbb7f0cce54eaed0cbbc7704c1437d8cc0463b0c3e77d31b02585f29",
+      "adapted": false
+    },
+    {
+      "source": "dst-kb-service/dst_kb_cli.py",
+      "target": "references/tools/knowledge/dst_kb_cli.py",
+      "upstream_sha256": "b93153c706fb0a1520f542bc60cf3dc22a820a77ca1aaefda0cb24fe7167f191",
+      "integrated_sha256": "26893ea8f49ef0c335c13e58114a8af17456cd9d13f938b910254dbb7a1a834b",
+      "adapted": true
+    },
+    {
+      "source": "dst-kb-service/docs/mcp-tools.json",
+      "target": "references/tools/knowledge/docs/mcp-tools.json",
+      "upstream_sha256": "e2806187c2622dcffd08f5cdc5cb839e6b0341f376da4e823279d984b3aced5b",
+      "integrated_sha256": "e2806187c2622dcffd08f5cdc5cb839e6b0341f376da4e823279d984b3aced5b",
+      "adapted": false
+    },
+    {
+      "source": "dst-kb-service/dst_kb/cli.py",
+      "target": "references/tools/knowledge/dst_kb/cli.py",
+      "upstream_sha256": "dac405b23138ad4e64693f80a1006a92bd8ffbce7b5d12f3d862a84aa4b67bd9",
+      "integrated_sha256": "dac405b23138ad4e64693f80a1006a92bd8ffbce7b5d12f3d862a84aa4b67bd9",
+      "adapted": false
+    },
+    {
+      "source": "dst-kb-service/dst_kb/config.py",
+      "target": "references/tools/knowledge/dst_kb/config.py",
+      "upstream_sha256": "fe898342160bd8d28d1787e6ace3a83182d2eb787cd357de3f738ac53a750652",
+      "integrated_sha256": "fe898342160bd8d28d1787e6ace3a83182d2eb787cd357de3f738ac53a750652",
+      "adapted": false
+    },
+    {
+      "source": "dst-kb-service/dst_kb/mcp_server.py",
+      "target": "references/tools/knowledge/dst_kb/mcp_server.py",
+      "upstream_sha256": "01c66483af1b4df52e9e75072d336d1beaa236708df09cf11626d0b9389fb3ff",
+      "integrated_sha256": "01c66483af1b4df52e9e75072d336d1beaa236708df09cf11626d0b9389fb3ff",
+      "adapted": false
+    },
+    {
+      "source": "dst-kb-service/dst_kb/service.py",
+      "target": "references/tools/knowledge/dst_kb/service.py",
+      "upstream_sha256": "94900d2096735be467c32827fcc1f16eb52c309f7b7fbebf8274a147d91f2ec3",
+      "integrated_sha256": "94900d2096735be467c32827fcc1f16eb52c309f7b7fbebf8274a147d91f2ec3",
+      "adapted": false
+    },
+    {
+      "source": "dst-kb-service/dst_kb/validation.py",
+      "target": "references/tools/knowledge/dst_kb/validation.py",
+      "upstream_sha256": "ee537e1de77827d6a8a9d169be8731e072161c2badcad8c08a13c075c4811700",
+      "integrated_sha256": "ee537e1de77827d6a8a9d169be8731e072161c2badcad8c08a13c075c4811700",
+      "adapted": false
+    },
+    {
+      "source": "dst-kb-service/dst_kb/__init__.py",
+      "target": "references/tools/knowledge/dst_kb/__init__.py",
+      "upstream_sha256": "1d282a024122fa0f93a1a04a87d8e06dbef75ff681be671676d4c48315e74678",
+      "integrated_sha256": "1d282a024122fa0f93a1a04a87d8e06dbef75ff681be671676d4c48315e74678",
+      "adapted": false
+    },
+    {
+      "source": "dst-kb-service/tests/test_service.py",
+      "target": "references/tools/knowledge/tests/test_service.py",
+      "upstream_sha256": "5027d1d861d15cc0b0a456dd5fd201180903c9ebf62f5b8b9a8f0ebd06d3c0c5",
+      "integrated_sha256": "8a6bdb10d32ea4fef8ed73e142e4bebe7c4ca6a69aaf08f037969384d0c6030e",
+      "adapted": true
+    },
+    {
+      "source": "templates/local-validation.md",
+      "target": "references/testing/local-validation.md",
+      "upstream_sha256": "3117ea62a892340c4128a4cd3e82cb61bb88ca7c7ef715adcd80ebf3013352e9",
+      "integrated_sha256": "3117ea62a892340c4128a4cd3e82cb61bb88ca7c7ef715adcd80ebf3013352e9",
+      "adapted": false
+    },
+    {
+      "source": "LICENSE",
+      "target": "references/engineering/dst-mod-engineering/LICENSE",
+      "upstream_sha256": "e5cf5589dd260cad1532b3ee5495ef253c4d08c473568d0740ff5383b3baa1e9",
+      "integrated_sha256": "e5cf5589dd260cad1532b3ee5495ef253c4d08c473568d0740ff5383b3baa1e9",
+      "adapted": false
+    },
+    {
+      "source": "docs/validation.md",
+      "target": "references/engineering/dst-mod-engineering/upstream-validation.md",
+      "upstream_sha256": "031d2bdc74749c50b3bb9a970e6e58ef3555fe73a61cca7f55020d81b896ec84",
+      "integrated_sha256": "201022fda42687b1fca24c29d2e41af95155c2f3db9b979231fab54472fe668c",
+      "adapted": true
+    },
+    {
+      "source": "docs/knowledge-integration.md",
+      "target": "references/engineering/dst-mod-engineering/knowledge-integration.md",
+      "upstream_sha256": "00533c513e7a7c831676d1be69a344afead7c1f7fb7fdc240b7c3c9e15b329e8",
+      "integrated_sha256": "00533c513e7a7c831676d1be69a344afead7c1f7fb7fdc240b7c3c9e15b329e8",
+      "adapted": false
+    }
+  ],
+  "doc_count": 21,
+  "kb_entries": 64,
+  "validation_scope": "Synthetic tool/process regressions, readonly KB integrity/retrieval, installed-source declaration lookup, and native Codex skill discovery; no DST runtime/client test."
+}

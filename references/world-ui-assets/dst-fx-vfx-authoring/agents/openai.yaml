@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST FX粒子'
+  short_description: '粒子系统与视觉特效'
+  default_prompt: "Use $dst-mod-skill-main to create visual effects. Topic guide: references/world-ui-assets/dst-fx-vfx-authoring/GUIDE.md."

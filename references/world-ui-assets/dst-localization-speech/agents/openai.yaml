@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Localization Speech'
+  short_description: 'Localize DST UI content and character speech'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/world-ui-assets/dst-localization-speech/GUIDE.md."

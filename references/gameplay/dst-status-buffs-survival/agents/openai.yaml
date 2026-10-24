@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 状态Buff'
+  short_description: '实现饥荒生存属性、Buff/Debuff、时效修改器和状态视觉表现。'
+  default_prompt: "Use $dst-mod-skill-main to implement Don't Starve Together survival stats, buffs, and debuffs. Topic guide: references/gameplay/dst-status-buffs-survival/GUIDE.md."

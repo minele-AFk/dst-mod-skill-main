@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 调试测试'
+  short_description: '日志、最小复现与测试矩阵'
+  default_prompt: "Use $dst-mod-skill-main to diagnose and test this DST mod issue. Topic guide: references/core/dst-debugging-testing/GUIDE.md."

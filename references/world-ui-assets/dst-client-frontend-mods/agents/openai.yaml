@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Client Frontend Mods'
+  short_description: 'Build client-only and server-creation DST mods'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/world-ui-assets/dst-client-frontend-mods/GUIDE.md."

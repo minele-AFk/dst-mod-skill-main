@@ -1,0 +1,9 @@
+name = "DST Test Script Bridge"
+description = "Runs Lua code injected by external tools (references/tools/testing/run_script.py) and reports results for automated testing."
+author = "dst-server"
+version = "1.0.0"
+api_version = 10
+dst_compatible = true
+all_clients_require_mod = false
+client_only_mod = false
+priority = 9999

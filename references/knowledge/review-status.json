@@ -1,0 +1,3762 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-24",
+  "skill_version": "0.4.11",
+  "source_snapshot": {
+    "kind": "installed_scripts_zip",
+    "sha256": "03d745ab0aa78455b38240998c99d14f81e88e68b95320f31de79705f6ae5008",
+    "game_version": "759671",
+    "steam_buildid": "26148036",
+    "source_root": "D:/mods/scripts",
+    "version_scope": "local installation snapshot; all Lua files matched scripts.zip; online freshness not established"
+  },
+  "coverage": {
+    "documents": 295,
+    "depth_counts": {
+      "content_curated": 150,
+      "source_signatures": 27,
+      "structure_screened": 118
+    },
+    "component_signature_references": 27,
+    "explicit_component_signatures_recorded": 161,
+    "runtime_validation_performed": false,
+    "limitations": [
+      "Screening is not line-by-line semantic verification.",
+      "Component method candidates do not cover all dynamic aliases, private helpers or native bindings.",
+      "Content hash matching does not establish current game version or runtime behavior.",
+      "Historical evidence levels and unexecuted tests are unchanged."
+    ],
+    "excluded": [
+      "restricted mod-notes",
+      "Workshop Mod source",
+      "unrequested reference directories",
+      "frozen historical package content revision"
+    ]
+  },
+  "documents": {
+    "SKILL.md": {
+      "sha256": "4058700f7c9dcdc8cb4c357e96e7f2bf357523ccb079791af0f7f4652ced3d92",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/ability-index.md": {
+      "sha256": "9329ccb08c29d32981dad8104df7055c84171c4559ecdbe6afeef8dae79c4218",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/component-patterns.md": {
+      "sha256": "303f14ef80f505075674bdbaf3cd3addc4be352267af0195f05b573a78da0fe8",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/development-contract.md": {
+      "sha256": "f2fef8b7d7a81a6bb46c4b015436110e69d3014b995b602b6a63fd239cb96930",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/feature-recipes.md": {
+      "sha256": "69fce287d9e29ad774f8cf33ff1a8e1149ecc66aedaca682f07f97ed94a12df7",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/mod-api-map.md": {
+      "sha256": "2d39e46289a817c8d48f301a590978284c7051ab543bc897d48589f7f1876b16",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/mod-bootstrap.md": {
+      "sha256": "628ac331aff179a87184d9cce8cbe01072523bf2f97c8550adbc1bf3eac37c27",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/official-examples.md": {
+      "sha256": "379b64322f08b6828256af10397eb7fb5c7b7de0f6ba70e39217da9f55f93bc8",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/official-files.md": {
+      "sha256": "130271fc13fc23e0e18f1d0fcfe188868a26535abd4bb4ca7c99e666915f5102",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns.md": {
+      "sha256": "612a61578da0e248bc548838b2d8682c23562e3364e63457832a41b915f88d09",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/pitfalls.md": {
+      "sha256": "81719e9f01d4ca32897ccf36ab5a8abfdabe847d4eb6a34fbe2bb9d4b3084dae",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/signatures.md": {
+      "sha256": "931e38ddcb031987d958a9cb002220d7574d985200c5322ab6da0b1d1ec72f18",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/task-playbook.md": {
+      "sha256": "669f61707f0cbf8852cdb5d2652d8f804efebe8ba544d897076932104973a644",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review",
+        "selected_ui_recipe_persistence_network_task_routing_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/topic-index.md": {
+      "sha256": "44b7ae29151d09d97cc27c3e491c3f714b4ff34155a67eeca24fc4d7a0c5ee57",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/cases/case-custom-component.md": {
+      "sha256": "91f044f8c048de26c0600b5640ab926c85e2e938bda90578050480161376b02a",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-custom-creature.md": {
+      "sha256": "767a780ca1551ef84eb9feaee6bca14d10dffbc0dbb3db444eaa8bae6906316e",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-custom-debuff.md": {
+      "sha256": "69ee11c00123ac100a0914bf7b6d13bba7d4767b196d8dc2fc8918a08e34f9f1",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-custom-stat.md": {
+      "sha256": "40bd5ee13a1f6aadb29eb0904937e47d9a87d9777b44affa8e5fb0af8c626460",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review"
+      ],
+      "reviewed_on": "2026-10-18"
+    },
+    "references/cases/case-dynamic-portrait.md": {
+      "sha256": "dafc14f0b6ca2f909f92018384032b6c7717cb2c87bbfd960168a17e48c3331f",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/cases/case-player-character.md": {
+      "sha256": "3324576ccd0d3b47d738f7a79145f419462e48a136689a32936c6da8c494af97",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-quest-system.md": {
+      "sha256": "b1ec87807e57bcd61bce6c019822d7fdd1e272debca1d6438c0a220399b629d8",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-shop-system.md": {
+      "sha256": "4db9b17f9f2d54903324aa21a75fe0a78eef3da7b9725633490a1fbe00dbe7fc",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-skill-tree.md": {
+      "sha256": "8e3f93c07f1e872570e283b7ba1be1c5f28553cdfc2beaec4626706beb98b938",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-skill-wheel.md": {
+      "sha256": "ab47356324e3f458080a7c55dba6dfb43ca3dd5a7b8c3160fb5bc9201e85f018",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-teleport-system.md": {
+      "sha256": "8a72315850dc9e0a0c161adc43226aedaa9cfe6a1309c5162480b68f3f447ff2",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-weapon-armor.md": {
+      "sha256": "ecefd48ac50bdf2b6f9991220097c38421c4a6666902565cd920b6ec1201cbd3",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/cases/case-weapon-system.md": {
+      "sha256": "0d46d4a0ab95e33494ba1418c37ab76dfb6c434f99f7cccc2edb5ccbf7426cf7",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/components/ai/follower.md": {
+      "sha256": "b436e82c50d2d035d3a7ea5ac651f249c134abf323b98cb589a326d5b5d881f7",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/follower.lua",
+        "sha256": "4f1c06a039e10f1e229b3d593fe053d541c48c9507d9d1697f8431e01f72445c",
+        "explicit_signatures_recorded": 0
+      }
+    },
+    "references/components/behavior/talker.md": {
+      "sha256": "88f09eb596fc926d94426638a664a839d159aa335a283c356792b40149843c00",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review",
+        "document_consolidation_and_link_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/talker.lua",
+        "sha256": "408036b29616cac2d6cc0db3b6f8defd356d46f1905d31f86903a86ea7151832",
+        "explicit_signatures_recorded": 6
+      },
+      "reviewed_on": "2026-10-21"
+    },
+    "references/components/combat/armor.md": {
+      "sha256": "6cbbc87eb8699ad43d0ef428edcf18da1b43d774eb69375f13fb54a6afa72c07",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/components/combat/combat.md": {
+      "sha256": "8ffcac784bfa2bcab61dd04c8cf87ffb356fd870d0dafd8884154e4a483bb9fe",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/components/combat/damagetyperesist.md": {
+      "sha256": "e8a590a8c50dc94317e8a368f8c03458a1ad69205ebda2803a1ce7b1482158d9",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/damagetyperesist.lua",
+        "sha256": "d5710fb2e7874daa0b1fc7e6420212d750bd713263db43ca0916b95a664b1bfe",
+        "explicit_signatures_recorded": 0
+      }
+    },
+    "references/components/combat/equippable.md": {
+      "sha256": "32f7a628947e4a7c319eb1b36270ff5d4f9c9bff675ba6780bb39c2317533a6f",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/equippable.lua",
+        "sha256": "afa5d4d0c26c216a20834bcd844660fbefc45517360e6150076660556fcdcf52",
+        "explicit_signatures_recorded": 10
+      },
+      "reviewed_on": "2026-10-24"
+    },
+    "references/components/combat/weapon.md": {
+      "sha256": "6b9e8cf2dd9c89aeb86ae8d51bcedd74853e3c5d85899370b6c2dcc42e788a56",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/components/items/cookable.md": {
+      "sha256": "c14b4f962b3a7de9543f8c7382dd337fb2f243432fb5336479d5f43100c1ec90",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review",
+        "document_consolidation_and_link_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/cookable.lua",
+        "sha256": "2ae9fb18536e93105b0c0da2376d90c401806ca79d2a6fda87c349af5aec40ed",
+        "explicit_signatures_recorded": 2
+      },
+      "reviewed_on": "2026-10-21"
+    },
+    "references/components/items/edible.md": {
+      "sha256": "59cdd25f62a189d8851f6e37c12ec302ce3d418889ceba3b4ea390e4e66d33c8",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/edible.lua",
+        "sha256": "37e8a6ef067cbd35cbd131eca55d4e9bfe962778f9cee06f3316d34ea6d07aa6",
+        "explicit_signatures_recorded": 10
+      }
+    },
+    "references/components/items/finiteuses.md": {
+      "sha256": "e1dfbcd17a0ca11f9ca60e80dbf17e6f1009c83096869e70fc244f5838096c24",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/finiteuses.lua",
+        "sha256": "db589f3ccc740d002c6106be914a1cde6375056262720359b2becdba25cec4b4",
+        "explicit_signatures_recorded": 10
+      }
+    },
+    "references/components/items/fuel.md": {
+      "sha256": "415f319b6a663c3c76d43448461a5848a53a59e608ba304e7cea3a5de57c6716",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/fuel.lua",
+        "sha256": "bb03776d9b9fb53064b6ac636bb9becd0e92e734760f6ad6e98f5bcd37354902",
+        "explicit_signatures_recorded": 2
+      }
+    },
+    "references/components/items/inspectable.md": {
+      "sha256": "42123d7d4f0d0f22c17aef375913644e895b986a218b30acd548d91337e9edfd",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review",
+        "document_consolidation_and_link_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/inspectable.lua",
+        "sha256": "d93f259d5a9b14401cceb084a1727711ac4d06085e30f72e3d0af0c97066f696",
+        "explicit_signatures_recorded": 4
+      },
+      "reviewed_on": "2026-10-21"
+    },
+    "references/components/items/inventoryitem.md": {
+      "sha256": "6e86d8f3826d12a50956cab75b8dabe1fb98f0ab539c4b6b751993c5df106d27",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/components/items/perishable.md": {
+      "sha256": "f375de9d5ed47af668b8d9db69414f03f6aaef2fdb1b08e815e841c570bb85b7",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/perishable.lua",
+        "sha256": "de4343eec4542fddb44dce00bb33c061bed7c1d815d8d248a0286b2018018658",
+        "explicit_signatures_recorded": 0
+      }
+    },
+    "references/components/items/stackable.md": {
+      "sha256": "eeb0d963bc88ee403a269472c3b7db213eede4157395c8e1eef56b43ad2e428b",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/stackable.lua",
+        "sha256": "bdadd8741422b9d82ae60b23b0126c5729621d5acf8f3aafcfb6e5a513d265c1",
+        "explicit_signatures_recorded": 8
+      }
+    },
+    "references/components/items/tool.md": {
+      "sha256": "a2dbdc08b50edb6f7f724c8bf487376be06aafb314182aaf025b40924596bbb1",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review",
+        "document_consolidation_and_link_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/tool.lua",
+        "sha256": "ec086e8fd11cf1ca93b1a47894028dd2b9a27df57fe508ab3c42a313f7fb0ada",
+        "explicit_signatures_recorded": 5
+      },
+      "reviewed_on": "2026-10-21"
+    },
+    "references/components/storage/container.md": {
+      "sha256": "5293e5444d04277fcbc608394eb113737fc959d91bef31896d3d6a54ff09df7c",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review",
+        "document_consolidation_and_link_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/container.lua",
+        "sha256": "f593c100098c116c00a627dde34a97f76b1ecfa87240d16943e1260411ceb961",
+        "explicit_signatures_recorded": 16
+      },
+      "reviewed_on": "2026-10-22"
+    },
+    "references/components/storage/inventory.md": {
+      "sha256": "0b5992eae8a0e45acfe0a1003095d22599459de48bfa5f0d04ae59a6ba26282b",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/inventory.lua",
+        "sha256": "a83c8a7b835d8c1782778954512540d98b0a05a49e7e5fdc29bf9fae7d68b6d8",
+        "explicit_signatures_recorded": 13
+      }
+    },
+    "references/components/survival/health.md": {
+      "sha256": "df4eae51ee4aa5184e0e39c06cdd60c2e75d76344939c9289517da831a255948",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review",
+        "document_consolidation_and_link_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/health.lua",
+        "sha256": "918695e24c82005106428e2b74e853a9b22208b971161fba935f4d9bc50a040d",
+        "explicit_signatures_recorded": 10
+      },
+      "reviewed_on": "2026-10-21"
+    },
+    "references/components/survival/hunger.md": {
+      "sha256": "a2aebe2df4ac95ac659d28febaff3677c7eeb4fd2d9951eb5b1a3e515b6d0481",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review",
+        "document_consolidation_and_link_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/hunger.lua",
+        "sha256": "6eb4e59a49fca0a8018c66497d0dfbab4ddcbd23ec2408aa7c8afcf29439a36f",
+        "explicit_signatures_recorded": 10
+      },
+      "reviewed_on": "2026-10-21"
+    },
+    "references/components/survival/moisture.md": {
+      "sha256": "414b7d45693c01f0410bd62854254735107030d38c50124fa703a3e5113becb2",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/moisture.lua",
+        "sha256": "06046db4c227fe04e7af1f17add1827d1595eac0ba52fda548f4ba5ea4caede5",
+        "explicit_signatures_recorded": 0
+      }
+    },
+    "references/components/survival/sanity.md": {
+      "sha256": "3200bb04a3c7a5758df3418d2d8e80a5c51540677da454262b34e5412dd36461",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/sanity.lua",
+        "sha256": "a6d6e16fc9010ce316995f242ef67c92bec6c0df6023642314358ef1b84745cb",
+        "explicit_signatures_recorded": 11
+      }
+    },
+    "references/components/survival/sleeper.md": {
+      "sha256": "8201a84d7a631455108fbefeac2474743f5de3c08e6cadf0c7794f0c4328f38f",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/sleeper.lua",
+        "sha256": "3c9b32d48f17b00cba72228ab4b4a4c9edbd9b1913612ae01ee34a66e5592b42",
+        "explicit_signatures_recorded": 0
+      }
+    },
+    "references/components/survival/temperature.md": {
+      "sha256": "6b84f947d8c877104c21a1168aeb3385ecb7d8682f5587a7b32e7756b3ad4046",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/temperature.lua",
+        "sha256": "630be4b04b06c1e39123dcc56f77e0f262ce57cd49c7f482a1feff2152091741",
+        "explicit_signatures_recorded": 0
+      }
+    },
+    "references/components/system/blinkstaff.md": {
+      "sha256": "8c415834163dfeb0079bf32f6092de7492ab4bb624f87facc34308118d30ae33",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/components/system/recallmark.md": {
+      "sha256": "834937cf7e319facdc94940a43e279a993cd289675a01c11aca7f6fb88fc9ac8",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/recallmark.lua",
+        "sha256": "25105cd4a04c39c64f2c4f08a99aeca1f413d2172abfc70c40e6eb0e706e3aa4",
+        "explicit_signatures_recorded": 0
+      }
+    },
+    "references/components/system/worldmigrator.md": {
+      "sha256": "0bb1500ca0ed381c2380f526e50fdce659b45bfc9631af7e43e884622c57e038",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/worldmigrator.lua",
+        "sha256": "8983f95da1a69114ebc3e498da03b572e3aa8c237ad0c12b08d2543898a21951",
+        "explicit_signatures_recorded": 0
+      }
+    },
+    "references/components/utility/locomotor.md": {
+      "sha256": "a7f3003cb21ccd62ea9bebcd8e9cfd02b44b62d6802ebf22264f810aacaff833",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/locomotor.lua",
+        "sha256": "1dc0d33b575877f315b46c4af8852deba0a91053f41eb16ad80aafa7b611de72",
+        "explicit_signatures_recorded": 12
+      }
+    },
+    "references/components/utility/timer.md": {
+      "sha256": "f583adc0c38fbdd8b9b19193fcd63866586c09580551240b9d5941ebb606c477",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review",
+        "document_consolidation_and_link_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/timer.lua",
+        "sha256": "ecd8efa36015ea6282534ab31880e2fbb6d0ab7aab8e0b09e2e23ef15def125b",
+        "explicit_signatures_recorded": 10
+      },
+      "reviewed_on": "2026-10-21"
+    },
+    "references/components/world/deployable.md": {
+      "sha256": "d5e76835ed69771a52a3a4fe8e7b479415bd3aa6eef53ecf63cbecddc864fbba",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/deployable.lua",
+        "sha256": "6ce4dc04f9f69593f165ee3bdde7f36ae7cf7a056d0aacaec34a5f58ef767392",
+        "explicit_signatures_recorded": 0
+      }
+    },
+    "references/components/world/pickable.md": {
+      "sha256": "bd4ad50c444761a00e7aeb6c2837381def0cdf5e780e927440b9fa29870c93ed",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review",
+        "document_consolidation_and_link_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/pickable.lua",
+        "sha256": "59e58f8edfd10b9742aa85b2d722ee8f30854174eea7f7d7f73f4d9ee9449902",
+        "explicit_signatures_recorded": 11
+      },
+      "reviewed_on": "2026-10-21"
+    },
+    "references/components/world/workable.md": {
+      "sha256": "df4f8c3d6eb59238a54aad9b20b14fa9f2fa3886e3aba15b5df26abcab03901f",
+      "depth": "source_signatures",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "listed_component_signature_and_method_name_review"
+      ],
+      "component_source": {
+        "path": "scripts/components/workable.lua",
+        "sha256": "407f9073a498ed678ab4bf7ef028555816399e6f633ea4ca198b646bcfbe5733",
+        "explicit_signatures_recorded": 11
+      }
+    },
+    "references/core/dst-action-authoring/GUIDE.md": {
+      "sha256": "727438306d08abc51dc801c837949da7d29bf060afc3ee4e2a32f8e837db2238",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/core/dst-action-authoring/references/action-pipeline.md": {
+      "sha256": "63c746d4e59c3ac07111b1ef832b0584295daa737806dd142f64f42faf12d5dc",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/core/dst-action-authoring/references/feed-to-upgrade.md": {
+      "sha256": "338931327ee2c048f8f148963ea1b078364de1fb90ea82e5adb950b5b78d4a42",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/core/dst-component-authoring/GUIDE.md": {
+      "sha256": "7ebec8a229d28d1269f254b00d5b76b80037030f5cd12302a1113f05f22db514",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/core/dst-component-authoring/references/component-api-quickref.md": {
+      "sha256": "dfd8d5f04639c8a91520526bf5b7204e8a8fe39bd8103640a3f40944c4ec1a84",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/core/dst-component-authoring/references/component-contract.md": {
+      "sha256": "4543856f86734e31b2737f93cc821ff1c8ed6b9ddd1fbc41cff6821538d487d3",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "document_consolidation_and_link_review",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/core/dst-debugging-testing/GUIDE.md": {
+      "sha256": "f3fc07afb2dd79b5e2061c27b8d7f9de026b482c3bc813209d4e18077a83eb7a",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/core/dst-debugging-testing/references/console-commands.md": {
+      "sha256": "d4b4764847dec778a2b0635be1218f879beff7eb1208d12dd375b0ef01e0dffc",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/core/dst-debugging-testing/references/dev-environment-guard.md": {
+      "sha256": "97fd1069cbc1740920bd22cfc83aee8f2dcd84ddc571a3bf7388d4ba6f0f77fc",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/core/dst-debugging-testing/references/test-matrix.md": {
+      "sha256": "bc3d7b627bc5ac1711edd815dde6b47035d8f68e8426e8a2f03d11a630793482",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/core/dst-events-tasks-lifecycle/GUIDE.md": {
+      "sha256": "49f0ed1ac165b333efe50cb207465680bdcaf08003a5ee120ca671b36d7ed423",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/core/dst-hooking-compatibility/GUIDE.md": {
+      "sha256": "909e345d12c4b8f7b186a0556a3bf849f131308680e053156b9df3b70d67c32c",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/core/dst-hooking-compatibility/references/custom-damage-death-layers.md": {
+      "sha256": "09d9bc6c04ab16e2fb791522b1df511e970494509c2d76082599ab4cb3a89722",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/core/dst-hooking-compatibility/references/creature-behavior-override.md": {
+      "sha256": "292a1f6468393ddb2bc1b9630fd2870556723ea73ee7da3ef5dc585dc9f63f14",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/core/dst-hooking-compatibility/references/heal-block-restore.md": {
+      "sha256": "603f99d9198bfe64596487c25b9779ebb3424990dac32eec0fcc65cd62cfb69e",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/core/dst-hooking-compatibility/references/userdata-method-extension.md": {
+      "sha256": "79ff72cd19cbae48c40aaa7f9ca1c89a28216cec87eba2963bc9ba4420fcf34a",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/core/dst-lua-runtime/GUIDE.md": {
+      "sha256": "fafd2b3211c39c9b0ed0fb63e7af4b19287726feffefcdb7f8675fef5605187e",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/core/dst-lua-runtime/references/global-strict-mode.md": {
+      "sha256": "75973dd4821a31fcbd123eb32731fe1cb941ebabc57e55418ea574c63b0ba8d9",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/core/dst-lua-runtime/references/module-environments.md": {
+      "sha256": "11279a76f1aea00a6f400de07428c403f46203210266023941ee494b3757c4d4",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/core/dst-mod-scaffolding/GUIDE.md": {
+      "sha256": "fd53fa9d7867caccd1a84e1e9dadd263554a21ca55d296bd0999864a31b0db9a",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/core/dst-mod-scaffolding/references/entrypoints.md": {
+      "sha256": "abef64b84f20573f09896646dce3f57412aaf5ee41811e88c7acb182342712d8",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/core/dst-mod-scaffolding/references/modmain-api-reference.md": {
+      "sha256": "86bfcede105c4448ace8ca098a7f2919b9b96c52cffbc3a3cbf3a09471730e56",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/core/dst-networking-rpc/GUIDE.md": {
+      "sha256": "4942dfd607d6a50b12dd4ffe13ba6480cce25e19609753534cf6afccc1f69835",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/core/dst-networking-rpc/references/network-contract.md": {
+      "sha256": "af1fb8edba8d72b198a0cb596599e5b609f1982151513201edd41bbf7685ba86",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/core/dst-networking-rpc/references/query-server-compression.md": {
+      "sha256": "8ed930bfd12a00851f207c5eb7d1df1a8e67f518552ea247612290aca6a7d320",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/core/dst-persistence-migration/GUIDE.md": {
+      "sha256": "b1d46172b2e5981cc1337b3ecbd85bb21bc1c23f31c0a0ab9413619cd35b9525",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/core/dst-persistence-migration/references/persistence-contract.md": {
+      "sha256": "90560f03365ef34270b4152ed509e8cd7ac59ab77e0a0f8691f82dd24f1657f9",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/core/dst-prefab-authoring/GUIDE.md": {
+      "sha256": "f2ae0ccc23e964e9dbf91b9ae8742508e873bc03c379acbdd1ca6484d8d3f0d7",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/core/dst-prefab-authoring/references/prefab-authoring-patterns.md": {
+      "sha256": "701316380ca3a84ec875ea9b87432841b670e93b015c96d63d146368be95d69f",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/core/dst-prefab-authoring/references/prefab-contract.md": {
+      "sha256": "b57beb501fb840f44ef582b06fad7af080a021761db8b02b53a4de30c92db6f0",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/core/dst-source-research/GUIDE.md": {
+      "sha256": "cfb7fc107c4f23007a4f197c7ec4e2437f542034a3cfa2f262b76c77abe5e94e",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/core/dst-source-research/references/source-research.md": {
+      "sha256": "df182b52ddf3908e6a1a6b65bc1cc99bcd07f1d8a2553b272ef2148102646709",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-api-update-diff/GUIDE.md": {
+      "sha256": "60ab8ec262fd9fccc2ea8f52da81942b42090b59901595228e3f0abd9d2f3256",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-api-update-diff/references/update-assessment.md": {
+      "sha256": "f74e247de4fc8e624f9b8c98eda048d3e42a7ae0300731752199b639ccbc6ec2",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-dedicated-server-testing/GUIDE.md": {
+      "sha256": "96124427b4743c6ff1ee0b65a43e4c5307f6ecc046597e7d203f9d1da6e375fa",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/README.md": {
+      "sha256": "28e46340c50ef9015ebc655eccfde80e6b7488009e3b51d528543f597b83c7d3",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review"
+      ],
+      "reviewed_on": "2026-10-18"
+    },
+    "references/engineering/dst-mod-engineering/animation-recipes.md": {
+      "sha256": "32bc1a989e015f58818de2f32fdc134cf849945e0fd60d64a205f79705d91c76",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/assets-animation.md": {
+      "sha256": "274bc1341959bf513757c4f41bc192fa392588de362305573f92d03eee934234",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/audio-particles.md": {
+      "sha256": "ee5fc5f9471e9222b94133d4223de3379e2074146911ef10d1109b01351fc9bc",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-mod-engineering/character-and-equipment-art.md": {
+      "sha256": "7004e06588d927a0fba628454aa832bf1b118646582ee1a9c53b94c48b6126a3",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/characters-brains-stategraphs.md": {
+      "sha256": "830a4a993c87533bc55cbb372b5e81bfe85c6485197ae959f947cfdf82e5e4a5",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-mod-engineering/combat-buffs-containers.md": {
+      "sha256": "3f76f1d82046a838706def01a6bcee1066322ace85f91fb6120ed431448c56e6",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-mod-engineering/cooker-dishes.md": {
+      "sha256": "11605c7065a44d924a8d8075e6beaf3eef3f7e9c3102d47cb69ea27bbfb6231f",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/core-lua-hooks.md": {
+      "sha256": "eba410d8296de94c33509de9c3e9a89877cc3f72d1f772cfbf1f402a876d7a63",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/dst-mod-tool.md": {
+      "sha256": "8b341922022fdb614ac01c84dd66ff2a27704a9ccb33f58c39f106b4d57f896e",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/entities-components.md": {
+      "sha256": "746e42ff5d08cb6a686623dc1b69db2b1ad9047f90eb20037c88783d6f1fa28b",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/environment-tools.md": {
+      "sha256": "01e9baa9b5386a3bc3db8e510f8c417132aa598f0c4c4fd626b4b712ce738a76",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review"
+      ],
+      "reviewed_on": "2026-10-18"
+    },
+    "references/engineering/dst-mod-engineering/items-food-plants.md": {
+      "sha256": "dce8f19a0672d6732a1a20503a716852198de23d287f8ff5489c7d590a7f3d3b",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-mod-engineering/kb-retrieval.md": {
+      "sha256": "fe9ab8ceb1790547b8ad711fd0ec3e44615aac17a7d0402838f0bace620fd3c2",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/knowledge-integration.md": {
+      "sha256": "00533c513e7a7c831676d1be69a344afead7c1f7fb7fdc240b7c3c9e15b329e8",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/lifecycle-save.md": {
+      "sha256": "a7643abab0408be3e91c0188620728b9e3f170a4d1b9f053b65da4d40fcac7a6",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-mod-engineering/networking-rpc.md": {
+      "sha256": "9faf42ed8b6c41e0560b05bdc3a34459c864e555b5b6902a0e5e39560931d8da",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-mod-engineering/sources-and-corrections.md": {
+      "sha256": "a163c3c2b2a300d1a3d07a0fecb233f174b0a6edf7760fd6d4c6b22f7e8f3c82",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "full_markdown_value_and_routing_review"
+      ],
+      "reviewed_on": "2026-10-18"
+    },
+    "references/engineering/dst-mod-engineering/spells-and-custom-stats.md": {
+      "sha256": "aa5a069dd9940082c33ae274245b61b1671ecf57c86079b66e0351c35a49b6d5",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-mod-engineering/testing-release.md": {
+      "sha256": "9ae877edee7809eab52749f4d841e74a2d28e14482cea86785d2110a0f62f022",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/tool-bootstrap.md": {
+      "sha256": "553d0158a3f7d9e204f570cad02a1e4b8bfefacd1257ce3d37713d88dc9d3da2",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/ui-actions-controls.md": {
+      "sha256": "eab0694f52d7623c58e989b2c7b82cca29c30a39f5b32068b8acafb81059bbe8",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-mod-engineering/upstream-validation.md": {
+      "sha256": "201022fda42687b1fca24c29d2e41af95155c2f3db9b979231fab54472fe668c",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-mod-engineering/worldgen-spatial.md": {
+      "sha256": "ff98c5e97d2ba0d44812347b4a27e071b76334a5f9326c11d958f0799be3e31c",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/engineering/dst-mod-review-refactoring/GUIDE.md": {
+      "sha256": "ce8124d130f1d42a98e7f80091f861a01ff7ff38ff7349b48073f69b638e59e9",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/engineering/dst-mod-review-refactoring/references/review-checklist.md": {
+      "sha256": "523c59a36dd14d79444c076add3828ec1a66c9153b90dd4e4fbb25a25a87593f",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-performance-profiling/GUIDE.md": {
+      "sha256": "659846fd0c72a9ff79d0fe4df273fc71091a8ac5423533b9abdb54ef5e7de913",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/engineering/dst-performance-profiling/references/performance-checklist.md": {
+      "sha256": "246ed26688b88e217c9e831a2c166a4b4e9421540794d52cef39c0f886583eae",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/engineering/dst-workshop-release/GUIDE.md": {
+      "sha256": "8115a38745576559429913b7e1bb09ac3d004a509fb74e29841acb15b10ea584",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-brain-authoring/GUIDE.md": {
+      "sha256": "221e01f869ed837310ccc9f0a401c58ed3f1e7768ec8de52393ec9a91ffbeaba",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/gameplay/dst-brain-authoring/references/brain-node-behaviour-quickref.md": {
+      "sha256": "c77e55cf58dc25ddf1d5e39478cedaf2ff8ce82978cdcad167d8a7ab2b7e16a1",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/gameplay/dst-building-deployment-physics/GUIDE.md": {
+      "sha256": "71125c39862a0167e2c24cb9daf4f2e1312c7573ee95f6e5e695e66592f76079",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-character-authoring/GUIDE.md": {
+      "sha256": "81582d0feb4bdcf2777508e6a935f08606dc14c87bb5c682a988261564418d00",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/gameplay/dst-character-authoring/references/character-fast-abilities.md": {
+      "sha256": "f4cc301f06b65d11a9e6f4fb170c333899cb9230347bc5856bd3310552926bb5",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-character-authoring/references/character-fast-work.md": {
+      "sha256": "6c36b77b975faa3451d8443871240ae256c032d7484cf88dd55145aa211c5edf",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-character-authoring/references/character-swim-ocean.md": {
+      "sha256": "fb7533eee1776be1c36832e247c79763af05f850be88c6ed044bb9f4da55e94b",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-character-authoring/references/character-walkonwater.md": {
+      "sha256": "134f9a4dadde1602cdcb059e0350a43f12062c60cb16d5785990ce80c88a4fb8",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-combat-weapons-projectiles/GUIDE.md": {
+      "sha256": "18efcd3a0d8a95369f8aa3c11f9e3b9ef024b515b546f389dd2bd1569e86d8be",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/gameplay/dst-combat-weapons-projectiles/references/threshold-reflect-damage.md": {
+      "sha256": "7b24328d9f7ac8fec104d54ab9cbd6c34d7d843813072cabf1f4c16c06f06e3c",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/gameplay/dst-crafting-tech-prototypers/GUIDE.md": {
+      "sha256": "31afd47cfaca5afdd0d7accacfed7023158d4ec3a3cd7081af8cf8f9c4b5a655",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/gameplay/dst-creature-boss-authoring/GUIDE.md": {
+      "sha256": "1cde58b687006281c02a0da46e83a6747ab48319fb729e25654ac30e1cde2d10",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-followers-mounts-pets/GUIDE.md": {
+      "sha256": "18b745821de23d7478fef716cbb0b64eace5a9d1cc68fa55d15ee0ec432c3628",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-food-cooking/GUIDE.md": {
+      "sha256": "08acc3ac7a3c5b8c242e4f5294155021d5b51835971504a5487fcc24611b3f96",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-food-cooking/references/pseudo-eating-ability.md": {
+      "sha256": "de1786e810f3ec8d203c49b9c5d09836e7e7d534a09f8d6f9495d330ee47cad4",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-inventory-equipment-containers/GUIDE.md": {
+      "sha256": "b4904005f89d3f56a98f62fba51da56daad0709d46f4289bc92ac11b12908b59",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/gameplay/dst-inventory-equipment-containers/references/auto-repair-maintenance.md": {
+      "sha256": "f44daa07884bb5629c315756b63d8cc7c279e7e68b7e4ec536e5a8975b8a2378",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-inventory-equipment-containers/references/dual-container-expansion.md": {
+      "sha256": "bf88dc4df02351fce43ef66aad55075a1ef80bb0b4a0786df76c1ed5ecb771aa",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-inventory-equipment-containers/references/entity-duplication.md": {
+      "sha256": "a82fc6ad0be981747fc823c66df19e71305f3d2f11b7546320eaad4f4b19d2bb",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-inventory-equipment-containers/references/entity-to-item-capture.md": {
+      "sha256": "0669674261c9220ebb8a0dc6cbcc034627cd5b618d4f3fbd4a5f9c76f8ded16a",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-inventory-equipment-containers/references/exclusive-item-protection.md": {
+      "sha256": "0b58941e1ce50ca63b03c3ccad5c9b80cf9f4c3f398e07c7b8a480481131b4c7",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-inventory-equipment-containers/references/portable-chef-container.md": {
+      "sha256": "85bb10041024677ddca1453a6fc8e2c326362dd4df032a5e70b7c8a72726d9c6",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-ocean-boats-fishing/GUIDE.md": {
+      "sha256": "0da0c6935def078093aab44667290bf8bf02dfb211f7f8b1024e3e55563b5079",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-plants-farming-regrowth/GUIDE.md": {
+      "sha256": "f619689cad30fb3a6dc4fde1fd03feb2021a28496a7cffc378918fac4a6a3ac6",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-plants-farming-regrowth/references/farm-stress-and-hooks.md": {
+      "sha256": "adc229d9486338e84871b4a1b1ba4dbe0ae9c3aea48d17dcb207ebfe14d40ebf",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-plants-farming-regrowth/references/transplant-pickable.md": {
+      "sha256": "e66709859acd7949585b99fd01d437f8d1b9ca356e4c2046ce89ee3998c40abf",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-skilltree-authoring/GUIDE.md": {
+      "sha256": "695e4d2a174d3e9177bfb94768310f2628bda5e88a4b9717cbfaedfb5e80fc95",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-stategraph-authoring/GUIDE.md": {
+      "sha256": "b2d6bd6d23c2c998d11771094ec65d4c2e815ce790aa0a37dfcaae5a02657939",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/gameplay/dst-stategraph-authoring/references/stategraph-contract.md": {
+      "sha256": "a49c0c3aef804a518bbf447ef0b2949c74bc47a7557aa4e6b983903ecebcd9a7",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/gameplay/dst-stategraph-authoring/references/stategraph-patterns.md": {
+      "sha256": "97966dd18f0d4bcca3317fd5e28ea80bae8230c8be589ac29f90cc583f0e58e6",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/gameplay/dst-status-buffs-survival/GUIDE.md": {
+      "sha256": "13b74d0911e37af7b99a2f968dd0b265034735851e2ce25d2b3a9f65e9c2b521",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/gameplay/dst-status-buffs-survival/references/buff-nightvision.md": {
+      "sha256": "da988eb25522c0c5dbb45a08b9466cd1e70753ad066d66700c33d118f9e05cc6",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-status-buffs-survival/references/carried-passive-buffs.md": {
+      "sha256": "e44fd4a916da594bd119c6e85252713dbb66c6217f58d9cb0e7dfb2538c4f4f1",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review"
+      ],
+      "reviewed_on": "2026-10-18"
+    },
+    "references/gameplay/dst-status-buffs-survival/references/eating-stat-modification.md": {
+      "sha256": "82c93a822a577f05143f281f586e1f20225dbcb07c58bbebf341eaa7e504b12f",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-world-systems-events-weather/GUIDE.md": {
+      "sha256": "f7d0f070319647b8830ac5f5dd5a5432f38e8ba92816ef9fbac0e017acf0ded5",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/gameplay/dst-world-systems-events-weather/references/portable-cross-world-migration.md": {
+      "sha256": "3e08fad76fd98a1a9b8d29ea0105f580d3471abe73b91b6280633a0380be00a0",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-world-systems-events-weather/references/weather-control-via-world-events.md": {
+      "sha256": "5824edb490cdf39749148d5bbcd11e38249a4f4f36859c24441c94968616ea29",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-worldgen-authoring/GUIDE.md": {
+      "sha256": "fb179f16a24a9b7f61f0eb126a51de64642974dd3217b59a17b8141f4b2d7737",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/gameplay/dst-worldgen-authoring/references/boss-prerequisites.md": {
+      "sha256": "d0da8c23641febc5e5abdace6f76e0caf45150bf0e6ee3fbfd97eedace7a8308",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-worldgen-authoring/references/save-files.md": {
+      "sha256": "5c28dfe2363a757b199fd305bcc58ddade862f621f03ed7ae9ed18c4b87ec047",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-worldgen-authoring/references/worldgen-data-and-hooks.md": {
+      "sha256": "6f52a304bf8f04d770cb82d2b21a903a1509f536aafeaebc5c680fcf4857b7e8",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-worldgen-authoring/references/worldgen-graph.md": {
+      "sha256": "6f4dd2744358ead5f3a19ccaff0fb2a4a6844bec352135d5abbc34994412df39",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-worldgen-authoring/references/worldgen-overrides.md": {
+      "sha256": "99cdec662f381e8e041b743db82a17e5913aebe060bab8416320a67950973fef",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/gameplay/dst-worldgen-authoring/references/worldgen-scenarios-hooks.md": {
+      "sha256": "b0117adf1491a1c0fec924217eabaf186bf2e217f0f4c54233cf83ca8a3f6f7d",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-worldgen-authoring/references/worldgen-tile-terrain.md": {
+      "sha256": "fca60f4a462cd7887500602ac6b625f0862afb923bb1b192ad7cd2aad9e54167",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/gameplay/dst-worldgen-authoring/references/worldsettings-overrides.md": {
+      "sha256": "bf93abaea5230b0d166fd2f2702eabe04379623dc13c6d68ff8c48ebec9dcf3a",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/index/quick-reference.md": {
+      "sha256": "a2fa10b5288e2123fe0b337e8cc193bb5ce089af57154f6fb450b03cfec27831",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/knowledge/README.md": {
+      "sha256": "4274de26d5016b63764dcd4a36afed3bec122d956b9afe602e9b62a9df79e8db",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review",
+        "full_markdown_value_and_routing_review",
+        "historical_evidence_terminology_clarity",
+        "document_consolidation_and_link_review",
+        "navigation_metadata_alignment"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/patterns/debug-techniques.md": {
+      "sha256": "d3abd9784945ad981c5419b30ef85e988ad8fe823f264d0306fcee693b396ba4",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/diagnostic-patterns.md": {
+      "sha256": "0b4e4bc167050981326572bce283be5292c923128503292e8275ad854458eb03",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/player-patterns.md": {
+      "sha256": "5f52ba9778ed80abb8b0f6d6ed8e9d699ddfabe267c209cccc0a158d74a6a3e3",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/runtime-i18n-patterns.md": {
+      "sha256": "46aafcfc5d3f17cdac1f107cde6ed7006fea45a6de64f82182b5c1960273bd84",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/skin-api-guide.md": {
+      "sha256": "9b533cfa054546a4e9ddc066def8e0d47f90516d841e26fdc1c32ca537db80aa",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns/world-system-patterns.md": {
+      "sha256": "a93c1caf3e3c018f93502d4a7e34457c1b549265bc7959680d1208b92adfc5b5",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/patterns/action/action-practical-guide.md": {
+      "sha256": "94d8d594bd63c71e659f57f86992501526a65a2ebce5b67b586c5e55f34a8ea9",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/ai/brain-practical-guide.md": {
+      "sha256": "76fc04f5c5dff52710371024463fe02b18353f4d7301945f850b1c5a0321547f",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns/ai/stategraph-practical-guide.md": {
+      "sha256": "bfd15ccd083ab4e466067a6549efbce388c6391d1cff4ea38f842784e6098a9c",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "action_sg_prefab_debug_content_and_source_conflict_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/asset/animation-build-patterns.md": {
+      "sha256": "d459df226a78d41daa0e8b12d9fdfb14eb8b11c1301df8be18e9b6955175b919",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns/asset/animstate-patterns.md": {
+      "sha256": "2bddff46c39acdc6b4a48e57a1ee6219d20794e5ef8daea1bf2ff3ccd2abd81a",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns/asset/asset-patterns.md": {
+      "sha256": "27d00323f0e74a79f3853256f23fefff80da598dddb84fee2ed17791dec2ef8c",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/asset/effects-patterns.md": {
+      "sha256": "eee7e1094f5dc81861a48d6c0081154d5c3afe46f2d150636f231931dfc6e753",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/asset/texture-patterns.md": {
+      "sha256": "95b0c8f4b6ed12eb82458f07978e5472a97cba8cff7eea220073d96b50dee6f7",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns/asset/vfx-particle-practical-guide.md": {
+      "sha256": "9d0daf9a658e3fcb6cfafbe71a105a8b05fe7ce46f33a8e47a3247a34cb0aac5",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/patterns/character/character-crafting-patterns.md": {
+      "sha256": "f3d88cce5eb4cc2a5e2b768d51f9243a9aa2c4d8db388b08ac6c390060934504",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "recipe_character_boundary_and_installed_source_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/patterns/character/character-patterns.md": {
+      "sha256": "7c05174b57c9173637d6f780a4d38a51dc84b5471be0b51ccca43f35e71e51a1",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/patterns/character/common-abilities.md": {
+      "sha256": "b594cdf4259dc5366d7df9a100ea175f72f0ce35cb674d04cfb54c94c0d8d79a",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns/network/player-network-patterns.md": {
+      "sha256": "1720ec52e9a99825a8f5eb5d4a54ecc9a371c5278b9fcb1c00cd83c84dbfd647",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/network/protected-call-patterns.md": {
+      "sha256": "d443aa07910843b8d35acad3a39f70e2c0bacf37001355265e7781238427f60d",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/network/shard-patterns.md": {
+      "sha256": "2b569276165e9a29edfa926524917f9ff11f1dccdc5df35124bad4de83b540a0",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/persistence/persistent-string-patterns.md": {
+      "sha256": "a289938da1c70a81ea69795c1e87131001b23bca10d9d13a62c6369dc44af0a3",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/prefab/standard-helper-patterns.md": {
+      "sha256": "403b83eb6f24df485b664df53e7cec3154ab31596d98b07914773797b83d70a0",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns/prefab/tag-patterns.md": {
+      "sha256": "36ae627199a1b663adc20716c5146c63f7b86eb6e038c4901925b4d45396d164",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns/project/file-management-patterns.md": {
+      "sha256": "83c0749019a45982f10558b8b898746b37f9f2d9a6a061a0f99e7cc28c211d9d",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/patterns/recipe/recipe-patterns.md": {
+      "sha256": "1c3cca25cdf706f66d8401b7b65b3bd03e1e84e5d6d746ddb8435223349b2f0e",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review",
+        "recipe_character_boundary_and_installed_source_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/patterns/runtime/entity-query-patterns.md": {
+      "sha256": "763fc128982229426446809736d2f1f741f870da28c4d886d072dc7240239e1d",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/patterns/runtime/input-patterns.md": {
+      "sha256": "7ef7fb2b6d0bb09a671d21ee4e040c537c0a98372c2242dd3f57ff651ba0b5ec",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "ui_input_ownership_contract_and_installed_source_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/patterns/skin/skin-patterns.md": {
+      "sha256": "8bae5a9145656208a05fd3cd2e73a65aedd38d2687bdc525d46d067fa4eddfd7",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/patterns/startup/modinfo-patterns.md": {
+      "sha256": "e388a53f626706499cac260c38ec827ab60e4ec89898d39244e1c2a7aa1574c1",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/patterns/startup/modmain-patterns.md": {
+      "sha256": "6a3c65f4c6d9b52446ae68e6d2559010639cac2ea2540714dc697ecafd5e858e",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/patterns/ui/ui-patch-patterns.md": {
+      "sha256": "494b08e72ed9bc945694214155568b8854f6278c81c85de5365119d186aed51c",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review",
+        "ui_input_ownership_contract_and_installed_source_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/patterns/world/worldgen-patterns.md": {
+      "sha256": "824e94943e695e702904d378ad5f5c112f9f0fc20fdb9ec91984e513543d1c14",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/pitfalls/context-pitfalls.md": {
+      "sha256": "6179de45d5225180806d15b33c105b33d8d9df6c7c14f3a65996440a05241012",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/pitfalls/crash-playbook.md": {
+      "sha256": "31fedf5d8c083a4aea021853cba30eb5e1369e8ee31c21db0b555bd201f3919f",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review"
+      ],
+      "reviewed_on": "2026-10-18"
+    },
+    "references/pitfalls/networking-pitfalls.md": {
+      "sha256": "9aa9811b15dd05c0893a2893d70e513f6e5ae260faf28efc9afb6e781ab8b1f1",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/pitfalls/old-rule-corrections.md": {
+      "sha256": "295bc327e190932c81143ab5b12aa2b311430815c4987d00de13be7847afeb2f",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "full_markdown_value_and_routing_review"
+      ],
+      "reviewed_on": "2026-10-18"
+    },
+    "references/pitfalls/performance-pitfalls.md": {
+      "sha256": "32063b621632e1082f2543b4c8ea2ac3f119406fcd297739cdc47d9ca1504394",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/pitfalls/persistence-pitfalls.md": {
+      "sha256": "117f7c27d4a8b245036c960e5afb360d382744da980c9f70621e29a0c8a71243",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/pitfalls/shard-pitfalls.md": {
+      "sha256": "b508378f3ddeb0e3486dfbd50989d10f59114cfd5aebdb5323bfa8e15c84b419",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/pitfalls/ui-pitfalls.md": {
+      "sha256": "763ce01d83e7d06782699e6416aae5b966494c3d28d0f4346888280b59fa6f9a",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/prefabs/item-name-reference.md": {
+      "sha256": "5c8ae2ca59d1a4b3724c10fd614fe7d3d5d3e184ad489e71bcd2234678c36ed2",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/prefabs/物品名字.txt": {
+      "sha256": "5f49109584cf388065535d945ec11b9d63111c9e3d0d20ecb035216b27c1ea13",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/reverse-engineering/GUIDE.md": {
+      "sha256": "e9f67f1b6ba85c7f69e32c2ea83009e488e8f41fbd9fec020a9f7df066de47c7",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/reverse-engineering/decryption-case-patterns.md": {
+      "sha256": "708c80f8260c06923411d1ed3159eac9dc36a681b19240fa39cd1092e1aa93be",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/signatures/entityscript-signatures.md": {
+      "sha256": "d1640ae3d3858fdb36266aad711267a1f502a29832b96fa53407a12417c84a72",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/signatures/helper-signatures.md": {
+      "sha256": "1588a6e8df6bc13120e7558b9ffa73660763b46a828293a7cf28cd7f1d3770e2",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/signatures/hook-signatures.md": {
+      "sha256": "4d60313606d3fc4a30d4ef736422298578d3fb61bb33c9612aeac44df0e2eeab",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/signatures/runtime-signatures.md": {
+      "sha256": "478a0cfe0708a68e7f9edc1e14d59f2daa2585a7453ccffe111af132dc7d9c7d",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/systems/animstate.md": {
+      "sha256": "85a013b4c63a53866056ca78f1fc16b5118d029cdb0c7032270a0ffd2cd80055",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/systems/light.md": {
+      "sha256": "3fee55e6d98130c7f7261bd8b859deccf20a6033187602a66c75b3d666fc2f48",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/systems/physics.md": {
+      "sha256": "587f38345ecae0b6c6261cec9ca472e39c3e376fb4da0928c346b699891a4593",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/systems/thefrontend.md": {
+      "sha256": "ac9615b732ed1498f77329be9c706082e56f1e2009093003c6c76dd27d98f545",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "document_consolidation_and_link_review"
+      ],
+      "reviewed_on": "2026-10-21"
+    },
+    "references/systems/theinput.md": {
+      "sha256": "ac35e8a602947a0a0fa142099e48666f20e53a3a4b47f8a1a1f64bf06ce8d1e4",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "document_consolidation_and_link_review",
+        "ui_input_ownership_contract_and_installed_source_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/templates/template-patterns.md": {
+      "sha256": "87698139d497e14d41a8ba0a423ab93e94061a2895dcec1db76e83ec5426c500",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/testing/dst-server-test-toolchain.md": {
+      "sha256": "ee3f2f95bb2836c6182657bd22ff91a433b2935b3dc436d2f3ed83acadf767b3",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/testing/local-validation.md": {
+      "sha256": "3117ea62a892340c4128a4cd3e82cb61bb88ca7c7ef715adcd80ebf3013352e9",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/testing/release-checklist.md": {
+      "sha256": "5d956db4b447b6b0b997d9f7705ab8e78aa8756bcae949ec99f625fa4e86e9a9",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review"
+      ],
+      "reviewed_on": "2026-10-18"
+    },
+    "references/tools/README.md": {
+      "sha256": "40bc13e5bf1270236058cde43ede91eebb6cb80047d516acdde6361a926e0b15",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review"
+      ],
+      "reviewed_on": "2026-10-18"
+    },
+    "references/tools/dst-wiki-scrape.md": {
+      "sha256": "7216a3f1009fcd3afcd5ec9ee86d7a21877d127ff471b39d16720e354595bce4",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/tools/general/dst-mod-tool.md": {
+      "sha256": "3d93f89d2bb575b68c56c8673e84662cf9dd4faf523261b6ab4e196b60e58f49",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/widgets/button.md": {
+      "sha256": "f0df594b13e68ab4fdccc434c2f7b0ffd5af68d1a36aabe709784d26f89f94f7",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/widgets/grid.md": {
+      "sha256": "f564df4cc0a3aef8b0d5c7725a74da601b5c8047d5fbc7ce471d8cf93a3549b3",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/widgets/healthbadge.md": {
+      "sha256": "aee21d58da077af38c0c513fb07c86326d5955aa4dea476e191cb37bbf141fcb",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "ui_input_ownership_contract_and_installed_source_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/widgets/image.md": {
+      "sha256": "0a9bd7373929df15189d86f6dae8a828486f610cedd52ed023b751e4ad031218",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/widgets/screen.md": {
+      "sha256": "3231e3cf083420f3024ee976fe379016d4ed886774705b0cd9f3822662572701",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/widgets/text.md": {
+      "sha256": "cfceea98b1fcf2af34c0bf0212e12969566366dbbcbce0c1977fdd33ac9e2db4",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-action-create-workflow/01-参考与三视图.md": {
+      "sha256": "73d6fd671ff1679cbcad7f0511f190e2d231837b1d72132926d175ebdd50b1e5",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-action-create-workflow/02-拆件与静态拼合.md": {
+      "sha256": "35f6d00720cca6e3c8a9a9b5271414fd1c34c43e78703111b7fc534dc3b6c31e",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-action-create-workflow/03-OpenSpine骨骼与动作.md": {
+      "sha256": "9c5e7772f06d3c269513e270013cc13117d7321571783b90a8e11636684ddf01",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-action-create-workflow/04-验收导出与游戏接入.md": {
+      "sha256": "af01871a55a24a3285212968abb01201a739b56d81efea2c8ce7712807032291",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-action-create-workflow/05-三狼案例与返工复盘.md": {
+      "sha256": "70ef5ec32131bfc8785907035856d3ebc14f65b706c39655739afe0a1adf114a",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-action-create-workflow/06-执行模板与检查表.md": {
+      "sha256": "465ea7c64d9e834946edb92465fd4c9159d2d6ff95ae27b399aae03bdfe8a3d1",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-action-create-workflow/GUIDE.md": {
+      "sha256": "343c7dd7af9a963e87e53b09ff4b3beae0e53f93577fcd51535b58d32db66f66",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-action-create-workflow/README.md": {
+      "sha256": "748f24cf888d50769a86092a61e717e1bad96932ab6533fd0f602d79f64ac2bf",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-action-create-workflow/references/openspine-mcp.md": {
+      "sha256": "117523e0cc0146e18675b7ea8019507ab13458533bcf4d912de1f95090e827f1",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-assets-animation-atlas/GUIDE.md": {
+      "sha256": "9b92522b9d9695a89f81152c5b7e84d07c0a99ef48e38733459a041c0144bfa2",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-assets-animation-atlas/references/asset-pipelines.md": {
+      "sha256": "9ac368981eb3668e14d4d4150fd6970d190dcf6a900f85ef138de50f83a35ea3",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/world-ui-assets/dst-assets-animation-atlas/references/asset-sample-archive.md": {
+      "sha256": "513e315b258198d741554e7f1728d9e24b8d5a2a96467c002b48e495a05cd12a",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-assets-animation-atlas/references/ktex-format.md": {
+      "sha256": "846f84475dfe08d653d0fcadd71cca98d1c9fce372f11aa7f7dd3b2295a8d5cb",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-audio-camera-effects/GUIDE.md": {
+      "sha256": "b4030923de5d585ab4900518282cfa5b5fe18437cda0ac92cf4775fbbd593484",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/world-ui-assets/dst-audio-camera-effects/references/fmod-sound-packaging.md": {
+      "sha256": "8c39f527a904c7d7345f55cca4c4a1026c9ec095400884aa6b32fa86337abde2",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/world-ui-assets/dst-character-parts/GUIDE.md": {
+      "sha256": "b57ed72a56430787fa14d7f8f700176b0be04e535627295923b25a859eafce40",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-character-parts/references/dst-parts-spec.md": {
+      "sha256": "a94ff1bb5bbb55e7376ce7c28589148ee79636869f313769d179624e500ae1e8",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-character-parts/references/image-size-standards.md": {
+      "sha256": "78c44498df05d682e42f5b6d62ada8b9a8a649237e377e51495589ef77d8fd15",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-character-parts/references/official-esctemplate-spec.md": {
+      "sha256": "e49a4c45435898ad2adfb39c550bfa7e106bb3c3c8d9b1f7eb5a307ce3a695eb",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-client-frontend-mods/GUIDE.md": {
+      "sha256": "a1ff7e3c6ff4bc6c28ef19a8982e5bc18fc7a4d998fa6e7ea9c3eb230bb4925b",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-fx-vfx-authoring/GUIDE.md": {
+      "sha256": "2b52532ff5e3ec809fad6023582959544912409f01da51f378880b1ff59687f6",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/world-ui-assets/dst-hud-screens-input/GUIDE.md": {
+      "sha256": "1eb2749d4526867e2673c1074c8d26acb983841491646fce73da2a2cd168bef0",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-hud-screens-input/references/hud-customization.md": {
+      "sha256": "3244e7aaa5ca185ed4ec2a4cc9a7ac0bd79a9605230795ff91c086078c247add",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "document_consolidation_and_link_review",
+        "ui_input_ownership_contract_and_installed_source_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-localization-speech/GUIDE.md": {
+      "sha256": "c5a865d37ceaeec39530e130f98402fcc326bd5844f01422f044729d5782c798",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-make-scml-animation/GUIDE.md": {
+      "sha256": "17723a2a5f4ad06a9f0c4ac4e174c99b46b2acea19f6ba5458201b819b3c3113",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review",
+        "full_markdown_value_and_routing_review"
+      ],
+      "reviewed_on": "2026-10-21",
+      "source_snapshot_sha256": "f8d7cff2e9f86cdab3de08c6e750ecec2986c9bc95b364724f4c77244a798bf1",
+      "runtime_validation": "not_established_by_this_review"
+    },
+    "references/world-ui-assets/dst-make-scml-animation/references/case-dragonling-scml.md": {
+      "sha256": "e29a98c95864c6da6ead3cdd1678ab4d0db0620f87947679f9f3a90e3825de1a",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "task_retrieval_and_application_review",
+        "full_markdown_value_and_routing_review"
+      ],
+      "reviewed_on": "2026-10-21",
+      "source_snapshot_sha256": "f8d7cff2e9f86cdab3de08c6e750ecec2986c9bc95b364724f4c77244a798bf1",
+      "runtime_validation": "not_established_by_this_review"
+    },
+    "references/world-ui-assets/dst-make-scml-animation/references/scml-production.md": {
+      "sha256": "71b7c8a09efdd47d9c0d063d4c8f5686ec92feccf56994605c808e15688dd94a",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-scenarios-setpieces-cutscenes/GUIDE.md": {
+      "sha256": "065ed01402bcafd2eaacf818e94c061bbf9e6523496e7134d678c16c8c2a2f34",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-shader-authoring/GUIDE.md": {
+      "sha256": "b43062a4d0f06b513191283cf483b8c769a23d45f22a26b2a15535c811f061fb",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/world-ui-assets/dst-shader-authoring/references/postprocess-multipass.md": {
+      "sha256": "46b92016030be9d5adb788d2423beb161561cb9c93b575f0d538f3b240be0f87",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-shader-authoring/references/shader-contracts.md": {
+      "sha256": "ce6dfbbaafe8743a3635d6bebd45ac0c38e7ef2ecf6ce4cfa1a90b6162c62838",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-shards-caves-portals/GUIDE.md": {
+      "sha256": "fed7ef485902a0135817af475915501ae38e6706b5a4adb1bf578a05737c4706",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/world-ui-assets/dst-skins-symbol-overrides/GUIDE.md": {
+      "sha256": "2771ed2d076943b0daf6033a9a49b6cf4c039994a822832cb4b5d27e63b30198",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/world-ui-assets/dst-texture-style/GUIDE.md": {
+      "sha256": "017330e40a62a99d93fd358fa311c0775c454d59ceb3cb4262336569fe81a312",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-texture-style/references/mod-clean-style.md": {
+      "sha256": "d1ff94a399fe7d30f28dbd8f6ff7d6be5c8c34f351cd73bf492e82c5e932dded",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-texture-style/references/reference-led-prompts.md": {
+      "sha256": "a9dc77bcb5774a2fece323b72a6795ad6372e0c1c193f0b3b79947bf80fd4eaf",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-texture-style/references/texture-style.md": {
+      "sha256": "241e55bec912ee1686d97937112bf784995a30682ddf8db15c08d2d965c56702",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-tiles-map-minimap/GUIDE.md": {
+      "sha256": "34025ba3eacd4b2636b4ded853852bf44bd7d31be8bf685877233fce596f1977",
+      "depth": "content_curated",
+      "reviewed_on": "2026-10-24",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision"
+      ]
+    },
+    "references/world-ui-assets/dst-ui-widget-authoring/GUIDE.md": {
+      "sha256": "83a5720cc4ff8d4b8946005ac4166270c173906512903136d41ee1d34c544b1b",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "in_place_content_revision",
+        "ui_input_ownership_contract_and_installed_source_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-ui-widget-authoring/references/widget-contract.md": {
+      "sha256": "f4c4ba37a90dd1b7360c915d827f53676e6c841a5a042f4db3c0be7e500bd6d2",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen",
+        "document_consolidation_and_link_review",
+        "ui_input_ownership_contract_and_installed_source_review"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-worldgen-layouts-retrofit/GUIDE.md": {
+      "sha256": "2d1def0ed3cad1c99b86cd3e337bd30b17d383912d290edfe4e40d79df74d2cc",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/world-ui-assets/dst-worldgen-layouts-retrofit/references/layout-retrofit.md": {
+      "sha256": "0eb6038665ef97cb5c8aaced4e34c2814aa3633c069c3a56cb284a7b2f417a33",
+      "depth": "structure_screened",
+      "checks": [
+        "utf8_read",
+        "relative_reference_scope",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "candidate_component_api_and_source_path_screen"
+      ]
+    },
+    "references/core/dst-hooking-compatibility/references/custom-damage-settlement-and-rollback.md": {
+      "sha256": "23100eedea69fb1e5f5749d97933196c4aa46a9f97ceb30d114591e9ebeedfaa",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/gameplay/dst-inventory-equipment-containers/references/container-registration.md": {
+      "sha256": "b93b723e3939e971ab55263db1243c155cac201379c0a729c9783455222e2a1d",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/core/dst-hooking-compatibility/references/post-init-hooks.md": {
+      "sha256": "2f59097508b94de08ba0c8966c0cc8fd4689431b5aaedf91f6469f29ee018cf2",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/gameplay/dst-worldgen-authoring/references/world-options-preinit.md": {
+      "sha256": "46e5e2a899dd082eabb06872d9739d7b7b4918f7c29c0e35c245a13f01d5dae3",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-hud-screens-input/references/user-commands.md": {
+      "sha256": "08dc292739f9574047e4af484012f274927a17ddf6dc88cef550ef5003a76a5a",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/gameplay/dst-character-authoring/references/character-assets.md": {
+      "sha256": "5ab501e79bd4f4f980db3c92672e9224bcdec64e7bf8a7280fdc2b51871c67a9",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/gameplay/dst-crafting-tech-prototypers/references/recipe-modification.md": {
+      "sha256": "6c886431d4cab26b29ace8bda22a2868aa12b68d34d57cbafcfba76d170b2f7d",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-client-frontend-mods/references/frontend-assets-loadingtips.md": {
+      "sha256": "b2cbd4802446bbd536ebe04455a5fc07353204c97a43e0b8a771a6c5c10725c6",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-assets-animation-atlas/references/ui-atlas-registration.md": {
+      "sha256": "080b39a77e9160a36600ef6802ad0ef24b4d145af0df053445c60011f4f17b60",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/world-ui-assets/dst-action-create-workflow/00-注意事项.md": {
+      "sha256": "150e16dd360c10e5d1f14fc6775dc256a658691f596cc664640e7a03a666f72d",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/world-ui-assets/dst-action-create-workflow/07-可移植发布与复现.md": {
+      "sha256": "44933d151127bc2d9fa902e1e28ef7201cb92d81d39130604f0849ae793f57e1",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/knowledge/document-routes.json": {
+      "sha256": "9dd93f5babacf97e8714ec45f7e91f7d53480b4329f9d55b3d66e2ed7267763b",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "relative_reference_scope",
+        "markdown_relative_link_screen",
+        "navigation_metadata_alignment"
+      ],
+      "reviewed_on": "2026-10-22"
+    },
+    "references/components/system/inventoryitemtemperature.md": {
+      "sha256": "322f9b72df94d2e327bf0d9b23fc7351c1cd0d1ba5d497f267c58eba39e3daa7",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "navigation_metadata_alignment"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/components/items/useabletargeteditem.md": {
+      "sha256": "b8d569e55597aeaeba9954e251aab60760d9fd250c7dd63d22dcbe3b19c17ce6",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "navigation_metadata_alignment"
+      ],
+      "reviewed_on": "2026-10-24"
+    },
+    "references/components/combat/deflectable.md": {
+      "sha256": "9f9e4c090b8d4b196eee235190e59bf68c9490e4d16aa5d47e26b48fce72f964",
+      "depth": "content_curated",
+      "checks": [
+        "utf8_read",
+        "in_place_content_revision",
+        "source_coverage_or_conflict_review",
+        "markdown_relative_link_and_anchor_screen",
+        "lua_fence_parse_screen",
+        "navigation_metadata_alignment"
+      ],
+      "reviewed_on": "2026-10-24"
+    }
+  },
+  "last_maintenance": {
+    "reviewed_on": "2026-10-24",
+    "focus": "Fourth-pass review of installed game 759671: death afflicter attribution, separate honey-trail server/client exclusion tags, paired flying-state physics cleanup, VRS visibility filtering before nearest-map-icon distance comparison, and scrapbook metadata semantics. The scrapbook fields pre-existed and are documented as current-contract coverage, not new APIs. No runtime validation.",
+    "evidence": {
+      "path": ".codex/validation/dst-source-update-20261023/second-pass-audit.md",
+      "sha256": "5b598744ac5d921babab38fb0383291ff9cfdde38af33fd8ca01f249f5b8042d"
+    },
+    "version_changed": true,
+    "changed_documents": 39
+  }
+}

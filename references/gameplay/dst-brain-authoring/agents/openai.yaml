@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST AI大脑'
+  short_description: 'Brain 与行为树编写'
+  default_prompt: "Use $dst-mod-skill-main to create or fix a Brain/BehaviourTree. Topic guide: references/gameplay/dst-brain-authoring/GUIDE.md."

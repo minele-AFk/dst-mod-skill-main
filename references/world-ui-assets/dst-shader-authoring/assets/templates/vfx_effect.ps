@@ -1,0 +1,19 @@
+#if defined(GL_ES)
+precision mediump float;
+#endif
+
+uniform sampler2D SAMPLER[1];
+
+varying vec3 PS_TEXCOORD_LIFE;
+varying vec4 PS_COLOUR;
+
+void main()
+{
+    vec4 texel = texture2D(SAMPLER[0], PS_TEXCOORD_LIFE.xy);
+    float fade = 1.0 - PS_TEXCOORD_LIFE.z;
+
+    gl_FragColor = vec4(
+        texel.rgb * PS_COLOUR.rgb * fade,
+        texel.a * PS_COLOUR.a * fade
+    );
+}

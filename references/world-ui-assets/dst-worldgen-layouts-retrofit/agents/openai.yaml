@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Worldgen Layouts Retrofit'
+  short_description: 'Build DST layouts and idempotent retrofits'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/world-ui-assets/dst-worldgen-layouts-retrofit/GUIDE.md."

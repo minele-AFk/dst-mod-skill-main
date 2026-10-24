@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 网络RPC'
+  short_description: 'netvar、Replica 与 RPC 处理'
+  default_prompt: "Use $dst-mod-skill-main to implement multiplayer replication and RPC. Topic guide: references/core/dst-networking-rpc/GUIDE.md."

@@ -1,0 +1,16 @@
+#if defined(GL_ES)
+precision mediump float;
+#endif
+
+uniform sampler2D SAMPLER[2];
+uniform float MY_BLUR_STRENGTH;
+
+varying vec2 PS_TEXCOORD0;
+
+void main()
+{
+    vec4 original = texture2D(SAMPLER[0], PS_TEXCOORD0);
+    vec4 blurred = texture2D(SAMPLER[1], PS_TEXCOORD0);
+    float strength = clamp(MY_BLUR_STRENGTH, 0.0, 1.0);
+    gl_FragColor = vec4(mix(original.rgb, blurred.rgb, strength), original.a);
+}

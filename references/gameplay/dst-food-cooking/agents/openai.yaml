@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 食物烹饪'
+  short_description: '创建饥荒食物、烹饪配方、食材标签和食谱书条目。'
+  default_prompt: "Use $dst-mod-skill-main to create Don't Starve Together foods, cooking recipes, and cookbook entries. Topic guide: references/gameplay/dst-food-cooking/GUIDE.md."

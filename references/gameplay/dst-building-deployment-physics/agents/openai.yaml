@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Building Deployment Physics'
+  short_description: 'Build deployable DST structures and physics'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/gameplay/dst-building-deployment-physics/GUIDE.md."

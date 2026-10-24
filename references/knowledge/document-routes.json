@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "purpose": "Navigation only: topic guides own workflows; older patterns and merged engineering pages supply detail, not independent evidence grades.",
+  "supporting_documents": {
+    "references/components/system/inventoryitemtemperature.md": [
+      "gameplay/dst-inventory-equipment-containers"
+    ],
+    "references/components/items/useabletargeteditem.md": [
+      "gameplay/dst-inventory-equipment-containers",
+      "core/dst-action-authoring"
+    ],
+    "references/components/combat/deflectable.md": [
+      "gameplay/dst-combat-weapons-projectiles"
+    ],
+    "references/patterns/action/action-practical-guide.md": [
+      "core/dst-action-authoring"
+    ],
+    "references/patterns/ai/brain-practical-guide.md": [
+      "gameplay/dst-brain-authoring"
+    ],
+    "references/patterns/ai/stategraph-practical-guide.md": [
+      "gameplay/dst-stategraph-authoring"
+    ],
+    "references/patterns/asset/animation-build-patterns.md": [
+      "world-ui-assets/dst-assets-animation-atlas"
+    ],
+    "references/patterns/asset/animstate-patterns.md": [
+      "world-ui-assets/dst-assets-animation-atlas"
+    ],
+    "references/patterns/asset/asset-patterns.md": [
+      "world-ui-assets/dst-assets-animation-atlas"
+    ],
+    "references/patterns/asset/effects-patterns.md": [
+      "world-ui-assets/dst-fx-vfx-authoring",
+      "world-ui-assets/dst-audio-camera-effects"
+    ],
+    "references/patterns/asset/texture-patterns.md": [
+      "world-ui-assets/dst-texture-style"
+    ],
+    "references/patterns/asset/vfx-particle-practical-guide.md": [
+      "world-ui-assets/dst-fx-vfx-authoring"
+    ],
+    "references/patterns/character/character-crafting-patterns.md": [
+      "gameplay/dst-crafting-tech-prototypers",
+      "gameplay/dst-character-authoring"
+    ],
+    "references/patterns/character/character-patterns.md": [
+      "gameplay/dst-character-authoring"
+    ],
+    "references/patterns/character/common-abilities.md": [
+      "gameplay/dst-character-authoring",
+      "gameplay/dst-status-buffs-survival"
+    ],
+    "references/patterns/debug-techniques.md": [
+      "core/dst-debugging-testing"
+    ],
+    "references/patterns/diagnostic-patterns.md": [
+      "core/dst-debugging-testing"
+    ],
+    "references/patterns/network/player-network-patterns.md": [
+      "core/dst-networking-rpc"
+    ],
+    "references/patterns/network/protected-call-patterns.md": [
+      "core/dst-networking-rpc",
+      "core/dst-lua-runtime"
+    ],
+    "references/patterns/network/shard-patterns.md": [
+      "world-ui-assets/dst-shards-caves-portals"
+    ],
+    "references/patterns/persistence/persistent-string-patterns.md": [
+      "core/dst-persistence-migration",
+      "world-ui-assets/dst-client-frontend-mods"
+    ],
+    "references/patterns/player-patterns.md": [
+      "gameplay/dst-character-authoring"
+    ],
+    "references/patterns/prefab/standard-helper-patterns.md": [
+      "core/dst-prefab-authoring"
+    ],
+    "references/patterns/prefab/tag-patterns.md": [
+      "core/dst-prefab-authoring"
+    ],
+    "references/patterns/project/file-management-patterns.md": [
+      "core/dst-mod-scaffolding"
+    ],
+    "references/patterns/recipe/recipe-patterns.md": [
+      "gameplay/dst-crafting-tech-prototypers"
+    ],
+    "references/patterns/runtime-i18n-patterns.md": [
+      "world-ui-assets/dst-localization-speech"
+    ],
+    "references/patterns/runtime/entity-query-patterns.md": [
+      "core/dst-lua-runtime",
+      "core/dst-prefab-authoring"
+    ],
+    "references/patterns/runtime/input-patterns.md": [
+      "world-ui-assets/dst-hud-screens-input"
+    ],
+    "references/patterns/skin-api-guide.md": [
+      "world-ui-assets/dst-skins-symbol-overrides"
+    ],
+    "references/patterns/skin/skin-patterns.md": [
+      "world-ui-assets/dst-skins-symbol-overrides"
+    ],
+    "references/patterns/startup/modinfo-patterns.md": [
+      "core/dst-mod-scaffolding"
+    ],
+    "references/patterns/startup/modmain-patterns.md": [
+      "core/dst-mod-scaffolding"
+    ],
+    "references/patterns/ui/ui-patch-patterns.md": [
+      "world-ui-assets/dst-hud-screens-input"
+    ],
+    "references/patterns/world-system-patterns.md": [
+      "gameplay/dst-world-systems-events-weather"
+    ],
+    "references/patterns/world/worldgen-patterns.md": [
+      "gameplay/dst-worldgen-authoring"
+    ],
+    "references/engineering/dst-mod-engineering/animation-recipes.md": [
+      "world-ui-assets/dst-assets-animation-atlas",
+      "world-ui-assets/dst-action-create-workflow"
+    ],
+    "references/engineering/dst-mod-engineering/assets-animation.md": [
+      "world-ui-assets/dst-assets-animation-atlas"
+    ],
+    "references/engineering/dst-mod-engineering/audio-particles.md": [
+      "world-ui-assets/dst-audio-camera-effects",
+      "world-ui-assets/dst-fx-vfx-authoring"
+    ],
+    "references/engineering/dst-mod-engineering/character-and-equipment-art.md": [
+      "world-ui-assets/dst-character-parts",
+      "gameplay/dst-inventory-equipment-containers"
+    ],
+    "references/engineering/dst-mod-engineering/characters-brains-stategraphs.md": [
+      "gameplay/dst-character-authoring",
+      "gameplay/dst-brain-authoring",
+      "gameplay/dst-stategraph-authoring"
+    ],
+    "references/engineering/dst-mod-engineering/combat-buffs-containers.md": [
+      "gameplay/dst-combat-weapons-projectiles",
+      "gameplay/dst-status-buffs-survival",
+      "gameplay/dst-inventory-equipment-containers"
+    ],
+    "references/engineering/dst-mod-engineering/cooker-dishes.md": [
+      "gameplay/dst-food-cooking"
+    ],
+    "references/engineering/dst-mod-engineering/core-lua-hooks.md": [
+      "core/dst-lua-runtime",
+      "core/dst-hooking-compatibility"
+    ],
+    "references/engineering/dst-mod-engineering/entities-components.md": [
+      "core/dst-prefab-authoring",
+      "core/dst-component-authoring"
+    ],
+    "references/engineering/dst-mod-engineering/items-food-plants.md": [
+      "gameplay/dst-inventory-equipment-containers",
+      "gameplay/dst-food-cooking",
+      "gameplay/dst-plants-farming-regrowth"
+    ],
+    "references/engineering/dst-mod-engineering/lifecycle-save.md": [
+      "core/dst-events-tasks-lifecycle",
+      "core/dst-persistence-migration"
+    ],
+    "references/engineering/dst-mod-engineering/networking-rpc.md": [
+      "core/dst-networking-rpc"
+    ],
+    "references/engineering/dst-mod-engineering/spells-and-custom-stats.md": [
+      "gameplay/dst-status-buffs-survival",
+      "world-ui-assets/dst-hud-screens-input"
+    ],
+    "references/engineering/dst-mod-engineering/testing-release.md": [
+      "core/dst-debugging-testing",
+      "engineering/dst-dedicated-server-testing",
+      "engineering/dst-workshop-release"
+    ],
+    "references/engineering/dst-mod-engineering/tool-bootstrap.md": [
+      "core/dst-mod-scaffolding",
+      "world-ui-assets/dst-assets-animation-atlas"
+    ],
+    "references/engineering/dst-mod-engineering/environment-tools.md": [
+      "core/dst-source-research",
+      "core/dst-mod-scaffolding"
+    ],
+    "references/engineering/dst-mod-engineering/dst-mod-tool.md": [
+      "world-ui-assets/dst-action-create-workflow",
+      "world-ui-assets/dst-assets-animation-atlas"
+    ],
+    "references/engineering/dst-mod-engineering/ui-actions-controls.md": [
+      "world-ui-assets/dst-hud-screens-input",
+      "core/dst-action-authoring",
+      "gameplay/dst-stategraph-authoring"
+    ],
+    "references/engineering/dst-mod-engineering/worldgen-spatial.md": [
+      "gameplay/dst-worldgen-authoring",
+      "world-ui-assets/dst-worldgen-layouts-retrofit"
+    ],
+    "references/core/dst-mod-scaffolding/references/entrypoints.md": [
+      "core/dst-mod-scaffolding",
+      "core/dst-lua-runtime"
+    ],
+    "references/core/dst-lua-runtime/references/module-environments.md": [
+      "core/dst-lua-runtime",
+      "core/dst-networking-rpc"
+    ],
+    "references/world-ui-assets/dst-hud-screens-input/references/hud-customization.md": [
+      "world-ui-assets/dst-hud-screens-input"
+    ],
+    "references/core/dst-networking-rpc/references/network-contract.md": [
+      "core/dst-networking-rpc"
+    ],
+    "references/core/dst-persistence-migration/references/persistence-contract.md": [
+      "core/dst-persistence-migration"
+    ],
+    "references/core/dst-component-authoring/references/component-contract.md": [
+      "core/dst-component-authoring"
+    ],
+    "references/gameplay/dst-brain-authoring/references/brain-node-behaviour-quickref.md": [
+      "gameplay/dst-brain-authoring"
+    ],
+    "references/world-ui-assets/dst-make-scml-animation/references/case-dragonling-scml.md": [
+      "world-ui-assets/dst-make-scml-animation"
+    ],
+    "references/world-ui-assets/dst-make-scml-animation/references/scml-production.md": [
+      "world-ui-assets/dst-make-scml-animation"
+    ],
+    "references/core/dst-action-authoring/references/action-pipeline.md": [
+      "core/dst-action-authoring"
+    ],
+    "references/gameplay/dst-stategraph-authoring/references/stategraph-contract.md": [
+      "gameplay/dst-stategraph-authoring"
+    ],
+    "references/core/dst-prefab-authoring/references/prefab-contract.md": [
+      "core/dst-prefab-authoring"
+    ],
+    "references/gameplay/dst-inventory-equipment-containers/references/container-registration.md": [
+      "gameplay/dst-inventory-equipment-containers"
+    ],
+    "references/core/dst-hooking-compatibility/references/post-init-hooks.md": [
+      "core/dst-hooking-compatibility"
+    ],
+    "references/gameplay/dst-worldgen-authoring/references/world-options-preinit.md": [
+      "gameplay/dst-worldgen-authoring"
+    ],
+    "references/world-ui-assets/dst-hud-screens-input/references/user-commands.md": [
+      "world-ui-assets/dst-hud-screens-input"
+    ],
+    "references/gameplay/dst-character-authoring/references/character-assets.md": [
+      "gameplay/dst-character-authoring"
+    ],
+    "references/gameplay/dst-crafting-tech-prototypers/references/recipe-modification.md": [
+      "gameplay/dst-crafting-tech-prototypers"
+    ],
+    "references/world-ui-assets/dst-client-frontend-mods/references/frontend-assets-loadingtips.md": [
+      "world-ui-assets/dst-client-frontend-mods"
+    ],
+    "references/world-ui-assets/dst-assets-animation-atlas/references/ui-atlas-registration.md": [
+      "world-ui-assets/dst-assets-animation-atlas"
+    ],
+    "references/world-ui-assets/dst-action-create-workflow/00-注意事项.md": [
+      "world-ui-assets/dst-action-create-workflow"
+    ],
+    "references/world-ui-assets/dst-action-create-workflow/07-可移植发布与复现.md": [
+      "world-ui-assets/dst-action-create-workflow"
+    ],
+    "references/world-ui-assets/dst-ui-widget-authoring/references/widget-contract.md": [
+      "world-ui-assets/dst-ui-widget-authoring"
+    ],
+    "references/systems/theinput.md": [
+      "world-ui-assets/dst-hud-screens-input"
+    ]
+  }
+}

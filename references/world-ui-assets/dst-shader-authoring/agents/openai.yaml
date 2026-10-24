@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Shader'
+  short_description: '着色器与后处理效果'
+  default_prompt: "Use $dst-mod-skill-main to create shaders and post-processing. Topic guide: references/world-ui-assets/dst-shader-authoring/GUIDE.md."

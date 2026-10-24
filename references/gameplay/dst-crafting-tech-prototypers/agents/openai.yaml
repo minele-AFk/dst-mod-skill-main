@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Crafting Tech Prototypers'
+  short_description: 'Build DST recipes technology and prototypers'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/gameplay/dst-crafting-tech-prototypers/GUIDE.md."

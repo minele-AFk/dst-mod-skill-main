@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 技能树'
+  short_description: '设计和集成饥荒角色的技能树节点、解锁规则和激活回调。'
+  default_prompt: "Use $dst-mod-skill-main to design and integrate Don't Starve Together character skill trees. Topic guide: references/gameplay/dst-skilltree-authoring/GUIDE.md."

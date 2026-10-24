@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Ocean Boats Fishing'
+  short_description: 'Build DST boats ocean systems and fishing'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/gameplay/dst-ocean-boats-fishing/GUIDE.md."

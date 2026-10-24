@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Dedicated Server Testing'
+  short_description: 'Test DST mods on dedicated multi-shard servers'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/engineering/dst-dedicated-server-testing/GUIDE.md."

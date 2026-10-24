@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Lua 运行时'
+  short_description: 'Lua 环境、Class 继承与模组作用域'
+  default_prompt: "Use $dst-mod-skill-main to resolve Lua scope and module issues. Topic guide: references/core/dst-lua-runtime/GUIDE.md."

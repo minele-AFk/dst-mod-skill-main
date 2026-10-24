@@ -1,0 +1,4 @@
+interface:
+  display_name: "饥荒人物拆件"
+  short_description: "将人物立绘和三视图拆成可编译的饥荒动画透明部件并完成校验"
+  default_prompt: "使用 $dst-mod-skill-main 将这张人物图拆成可用于饥荒人物动画的标准部件。 Topic guide: references/world-ui-assets/dst-character-parts/GUIDE.md."

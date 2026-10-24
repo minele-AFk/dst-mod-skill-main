@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 状态机'
+  short_description: 'StateGraph 编写与预测调试'
+  default_prompt: "Use $dst-mod-skill-main to write or fix a StateGraph. Topic guide: references/gameplay/dst-stategraph-authoring/GUIDE.md."

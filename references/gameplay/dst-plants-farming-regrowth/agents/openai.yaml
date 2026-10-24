@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST Plants Farming Regrowth'
+  short_description: 'Build DST plants farming and regrowth systems'
+  default_prompt: "Use $dst-mod-skill-main to implement and verify this DST mod task. Topic guide: references/gameplay/dst-plants-farming-regrowth/GUIDE.md."

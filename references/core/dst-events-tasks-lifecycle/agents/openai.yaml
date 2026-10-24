@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 事件与任务'
+  short_description: '事件监听、定时任务与生命周期管理'
+  default_prompt: "Use $dst-mod-skill-main to manage callbacks and tasks safely. Topic guide: references/core/dst-events-tasks-lifecycle/GUIDE.md."

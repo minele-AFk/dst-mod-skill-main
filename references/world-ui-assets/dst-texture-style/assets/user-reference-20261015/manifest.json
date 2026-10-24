@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01-blue-white-blade.png",
+    "source": "C:\\Users\\李博\\AppData\\Local\\Temp\\codex-clipboard-06d4f6cf-b82a-445c-8a91-2ed118366bac.png",
+    "provenance": "User supplied style reference on 2026-10-15; creator and source mod unknown",
+    "size": [
+      80,
+      80
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      33,
+      1,
+      51,
+      80
+    ],
+    "sha256": "e04c2a2f3f0e1929066a9f14f358559a395bc60338dedcaadfe73ff25200a38c"
+  },
+  {
+    "file": "02-silver-cyan-staff.png",
+    "source": "C:\\Users\\李博\\AppData\\Local\\Temp\\codex-clipboard-5c4ecb10-b446-4810-9583-6481b6a2684f.png",
+    "provenance": "User supplied style reference on 2026-10-15; creator and source mod unknown",
+    "size": [
+      199,
+      575
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      199,
+      575
+    ],
+    "sha256": "d8466bc31dedbc52358beac824dbd4c6728bdd057f6f368448875a1844fa456e"
+  },
+  {
+    "file": "03-gold-blue-orb.png",
+    "source": "C:\\Users\\李博\\AppData\\Local\\Temp\\codex-clipboard-e47a4d9a-49bd-4ea9-870e-dfe489642362.png",
+    "provenance": "User supplied style reference on 2026-10-15; creator and source mod unknown",
+    "size": [
+      80,
+      80
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      12,
+      13,
+      63,
+      65
+    ],
+    "sha256": "2ae2bcd91ca2263ba16c98360cd96718a1bb5c4bdf92caa81a0c547d6e39682c"
+  },
+  {
+    "file": "04-purple-scythe.png",
+    "source": "C:\\Users\\李博\\AppData\\Local\\Temp\\codex-clipboard-0fcf602b-6d67-46cc-a209-ad73a20bbe01.png",
+    "provenance": "User supplied style reference on 2026-10-15; creator and source mod unknown",
+    "size": [
+      150,
+      167
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      150,
+      167
+    ],
+    "sha256": "90f97731227297cfae0be1ed73aeccba8f8b28dd74781daed852b591d0aee1f2"
+  }
+]

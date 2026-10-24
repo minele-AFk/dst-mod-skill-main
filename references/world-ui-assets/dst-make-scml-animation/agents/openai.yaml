@@ -1,0 +1,4 @@
+interface:
+  display_name: "DST SCML 动作制作"
+  short_description: "制作并审计兼容 DST 工具链的 Spriter SCML 动画资源"
+  default_prompt: "使用 $dst-mod-skill-main 对照原版参考，设计、修复或审计兼容 DST 的 SCML 动画。 Topic guide: references/world-ui-assets/dst-make-scml-animation/GUIDE.md."

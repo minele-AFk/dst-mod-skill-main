@@ -1,0 +1,4 @@
+interface:
+  display_name: 'DST 战斗武器'
+  short_description: '战斗、武器、护甲与弹道'
+  default_prompt: "Use $dst-mod-skill-main to implement combat and weapon logic. Topic guide: references/gameplay/dst-combat-weapons-projectiles/GUIDE.md."
